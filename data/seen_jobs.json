@@ -1,4 +1,10 @@
 {
+  "https://boards.greenhouse.io/spacex/jobs/8726512002?gh_jid=8726512002": {
+    "first_seen": "2026-08-18T17:48:41+00:00",
+    "title": "Electrical Engineer, Radiation Effects",
+    "company": "SpaceX",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/cresta/jobs/5389409008": {
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Customer Engineer, APAC",
@@ -23,11 +29,23 @@
     "company": "kong",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/openai/2226c39d-371b-4dec-bf60-2d76dbe4c445/application": {
+    "first_seen": "2026-08-18T17:48:41+00:00",
+    "title": "Applied AI Engineer",
+    "company": "openai",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c/application": {
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Product Engineer, Full Stack - Agents",
     "company": "openai",
     "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c?utm_source=portfoliojobs.a16z.com": {
+    "first_seen": "2026-08-18T17:48:41+00:00",
+    "title": "Product Engineer, Full Stack - Agents",
+    "company": "OpenAI",
+    "source": "a16z Portfolio Jobs"
   },
   "https://jobs.ashbyhq.com/openai/7be58f3a-6005-42ed-86fa-77773ebfb294/application": {
     "first_seen": "2026-08-18T16:52:28+00:00",
@@ -52,6 +70,12 @@
     "title": "AI Research Engineer",
     "company": "Traversal",
     "source": "Sequoia Portfolio Jobs"
+  },
+  "https://www.fivetran.com/careers/job?gh_jid=7818274003": {
+    "first_seen": "2026-08-18T17:48:41+00:00",
+    "title": "Customer Solutions Engineer II",
+    "company": "Fivetran ",
+    "source": "Greenhouse"
   },
   "https://www.ycombinator.com/companies/aviator/jobs/2fmcI6d-software-engineer-fullstack": {
     "first_seen": "2026-08-18T15:21:39+00:00",
