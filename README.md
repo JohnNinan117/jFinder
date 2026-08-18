@@ -1,7 +1,7 @@
 # jFinder
 
 A small Python scraper that finds recent startup jobs and ranks them against
-John's resume.
+my resume.
 
 The first version reads Y Combinator's public jobs directory. Those listings
 link to YC's Work at a Startup application flow. It searches the main,
