@@ -57,13 +57,17 @@ Greenhouse and Lever companies work the same way. Add entries to
 `company-identifier|Display Name`. jFinder uses Greenhouse's first-published
 time and Lever's creation time for the two-day cutoff. It also discovers
 Ashby, Greenhouse, and Lever links exposed by the a16z and Sequoia boards.
+The starter watchlists contain 52 verified Greenhouse and Lever companies,
+with an emphasis on startups and growth-stage technology companies in the
+preferred locations.
 
 Location scoring prioritizes San Francisco and the Bay Area, followed by New
 York and Texas. Toronto and remote roles remain eligible. US jobs are not
 removed merely because they do not offer traditional visa sponsorship: a
 possible TN case is left for manual review. Explicit citizenship, clearance,
 or existing-work-authorization language is penalized and shown in the
-`eligibility_notes` CSV column.
+`eligibility_notes` CSV column. Roles explicitly limited to APAC, EMEA, or
+other non-North-American regions are skipped.
 
 Two days is the default maximum age. You can choose a different cutoff:
 

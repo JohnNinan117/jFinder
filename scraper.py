@@ -333,6 +333,12 @@ def excluded_title(title: str, profile: dict) -> bool:
 def keep_scored(job: Job, description: str, profile: dict) -> Job | None:
     if excluded_title(job.title, profile):
         return None
+    location_text = f"{job.title} {job.details}"
+    if any(
+        contains_term(location_text, term)
+        for term in profile.get("excluded_location_terms", [])
+    ):
+        return None
     searchable = f"{job.title} {job.details} {description}"
     if exceeds_experience_limit(searchable, profile):
         return None

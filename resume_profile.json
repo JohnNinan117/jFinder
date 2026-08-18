@@ -67,6 +67,18 @@
     "toronto": 2,
     "remote": 2
   },
+  "excluded_location_terms": [
+    "apac",
+    "emea",
+    "europe only",
+    "europe-only",
+    "united kingdom",
+    "london",
+    "india",
+    "singapore",
+    "australia",
+    "new zealand"
+  ],
   "eligibility_review_terms": {
     "us citizen only": -20,
     "u.s. citizen only": -20,

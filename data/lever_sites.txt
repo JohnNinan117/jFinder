@@ -8,3 +8,8 @@ copia|Copia Automation
 snaplogic|SnapLogic
 aeratechnology|Aera Technology
 toku|Toku
+benchsci|BenchSci
+waabi|Waabi
+ravl_io|RAVL
+captivateiq|CaptivateIQ
+anyscale|Anyscale

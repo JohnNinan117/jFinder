@@ -9,3 +9,33 @@ chaosindustries|CHAOS Industries
 togetherai|Together AI
 anthropic|Anthropic
 scaleai|Scale AI
+abnormalsecurity|Abnormal
+airtable|Airtable
+brex|Brex
+cockroachlabs|Cockroach Labs
+discord|Discord
+figma|Figma
+fivetran|Fivetran
+flexport|Flexport
+lattice|Lattice
+mercury|Mercury
+postman|Postman
+samsara|Samsara
+verkada|Verkada
+webflow|Webflow
+alloy|Alloy
+chainguard|Chainguard
+checkr|Checkr
+coalition|Coalition
+cresta|Cresta
+devrev|DevRev
+evolver|Evolver
+highnote|Highnote
+humaninterest|Human Interest
+lithic|Lithic
+modernhealth|Modern Health
+planetscale|PlanetScale
+sigmacomputing|Sigma Computing
+suki|Suki
+tailscale|Tailscale
+venncity|Venn
