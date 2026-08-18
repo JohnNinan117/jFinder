@@ -28,6 +28,8 @@ SOURCE_PAGES = (
 )
 DEFAULT_PROFILE = Path(__file__).with_name("resume_profile.json")
 DEFAULT_ASHBY_BOARDS = Path(__file__).parent / "data" / "ashby_boards.txt"
+DEFAULT_GREENHOUSE_BOARDS = Path(__file__).parent / "data" / "greenhouse_boards.txt"
+DEFAULT_LEVER_SITES = Path(__file__).parent / "data" / "lever_sites.txt"
 A16Z_URL = "https://portfoliojobs.a16z.com/jobs"
 SEQUOIA_URL = "https://jobs.sequoiacap.com/jobs"
 GETRO_BOARDS = (
@@ -301,6 +303,29 @@ def load_ashby_boards(path: Path) -> list[str]:
     ]
 
 
+def load_named_watchlist(path: Path) -> list[tuple[str, str]]:
+    """Load ATS identifiers written as `identifier|Display Name`."""
+    if not path.exists():
+        return []
+    entries: list[tuple[str, str]] = []
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        identifier, separator, display_name = line.partition("|")
+        identifier = identifier.strip()
+        if identifier:
+            entries.append(
+                (
+                    identifier,
+                    display_name.strip()
+                    if separator and display_name.strip()
+                    else identifier.replace("-", " ").title(),
+                )
+            )
+    return entries
+
+
 def excluded_title(title: str, profile: dict) -> bool:
     return any(contains_term(title, term) for term in profile["excluded_title_terms"])
 
@@ -387,6 +412,170 @@ def scrape_ashby(
                 found.append(scored)
     print(
         f"Ashby: checked {len(boards)} board(s), reached {available_count}, "
+        f"found {recent_count} recent job(s), kept {len(found)} resume match(es)."
+    )
+    return found
+
+
+def scrape_greenhouse(
+    session: requests.Session,
+    profile: dict,
+    boards: list[tuple[str, str]],
+    max_days: int,
+    delay: float,
+) -> list[Job]:
+    """Read selected companies through Greenhouse's public Job Board API."""
+    found: list[Job] = []
+    recent_count = 0
+    available_count = 0
+    for index, (board, display_name) in enumerate(boards):
+        if index:
+            time.sleep(delay)
+        url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs"
+        try:
+            response = session.get(url, params={"content": "true"}, timeout=20)
+            response.raise_for_status()
+            items = response.json().get("jobs", [])
+        except (requests.RequestException, ValueError, AttributeError) as error:
+            print(f"Skipping unavailable Greenhouse board: {board} ({error})")
+            continue
+        available_count += 1
+
+        for item in items:
+            posted = item.get("first_published") or "Unknown"
+            if not is_recent(posted, max_days):
+                continue
+            recent_count += 1
+            location = (item.get("location") or {}).get("name", "")
+            departments = [
+                department.get("name", "")
+                for department in item.get("departments", [])
+            ]
+            offices = [office.get("name", "") for office in item.get("offices", [])]
+            details = " | ".join(
+                dict.fromkeys(filter(None, [location, *departments, *offices]))
+            )
+            description = BeautifulSoup(
+                item.get("content", ""), "html.parser"
+            ).get_text(" ", strip=True)
+            job = Job(
+                title=item.get("title", "Untitled role"),
+                company=item.get("company_name") or display_name,
+                posted=posted,
+                details=details,
+                match_score=0,
+                match_reasons="",
+                eligibility_notes="",
+                url=item.get("absolute_url") or url,
+                source="Greenhouse",
+            )
+            scored = keep_scored(job, description, profile)
+            if scored:
+                found.append(scored)
+    print(
+        f"Greenhouse: checked {len(boards)} board(s), reached {available_count}, "
+        f"found {recent_count} recent job(s), kept {len(found)} resume match(es)."
+    )
+    return found
+
+
+def lever_posted_at(value: object) -> str:
+    """Convert Lever's millisecond timestamp to an ISO timestamp."""
+    try:
+        return datetime.fromtimestamp(
+            float(value) / 1000, tz=timezone.utc
+        ).isoformat()
+    except (TypeError, ValueError, OSError, OverflowError):
+        return "Unknown"
+
+
+def scrape_lever(
+    session: requests.Session,
+    profile: dict,
+    sites: list[tuple[str, str]],
+    max_days: int,
+    delay: float,
+) -> list[Job]:
+    """Read selected companies through Lever's public Postings API."""
+    found: list[Job] = []
+    recent_count = 0
+    available_count = 0
+    for index, (site, display_name) in enumerate(sites):
+        if index:
+            time.sleep(delay)
+        url = f"https://api.lever.co/v0/postings/{site}"
+        try:
+            response = session.get(
+                url,
+                params={"mode": "json"},
+                headers={"Accept": "application/json"},
+                timeout=20,
+            )
+            response.raise_for_status()
+            items = response.json()
+            if not isinstance(items, list):
+                raise ValueError("expected a list of postings")
+        except (requests.RequestException, ValueError) as error:
+            print(f"Skipping unavailable Lever site: {site} ({error})")
+            continue
+        available_count += 1
+
+        for item in items:
+            posted = lever_posted_at(item.get("createdAt"))
+            if not is_recent(posted, max_days):
+                continue
+            recent_count += 1
+            categories = item.get("categories") or {}
+            locations = categories.get("allLocations") or [
+                categories.get("location", "")
+            ]
+            details = " | ".join(
+                dict.fromkeys(
+                    filter(
+                        None,
+                        [
+                            *locations,
+                            categories.get("commitment", ""),
+                            categories.get("team", ""),
+                            categories.get("department", ""),
+                            item.get("workplaceType", ""),
+                            item.get("salaryDescriptionPlain", ""),
+                        ],
+                    )
+                )
+            )
+            list_text = " ".join(
+                BeautifulSoup(section.get("content", ""), "html.parser").get_text(
+                    " ", strip=True
+                )
+                for section in item.get("lists", [])
+            )
+            description = " ".join(
+                filter(
+                    None,
+                    (
+                        item.get("descriptionPlain", ""),
+                        list_text,
+                        item.get("additionalPlain", ""),
+                    ),
+                )
+            )
+            job = Job(
+                title=item.get("text", "Untitled role"),
+                company=display_name,
+                posted=posted,
+                details=details,
+                match_score=0,
+                match_reasons="",
+                eligibility_notes="",
+                url=item.get("applyUrl") or item.get("hostedUrl") or url,
+                source="Lever",
+            )
+            scored = keep_scored(job, description, profile)
+            if scored:
+                found.append(scored)
+    print(
+        f"Lever: checked {len(sites)} site(s), reached {available_count}, "
         f"found {recent_count} recent job(s), kept {len(found)} resume match(es)."
     )
     return found
@@ -572,6 +761,25 @@ def discover_ashby_boards(html: str) -> list[str]:
     return list(dict.fromkeys(boards))
 
 
+def discover_named_ats_sites(
+    html: str, hostnames: set[str]
+) -> list[tuple[str, str]]:
+    """Find Greenhouse or Lever company identifiers in portfolio-board links."""
+    soup = BeautifulSoup(html, "html.parser")
+    identifiers: list[str] = []
+    for link in soup.select("a[href]"):
+        parsed = urlparse(link.get("href", ""))
+        if parsed.hostname not in hostnames:
+            continue
+        path_parts = [part for part in parsed.path.split("/") if part]
+        if path_parts:
+            identifiers.append(unquote(path_parts[0]))
+    return [
+        (identifier, identifier.replace("-", " ").title())
+        for identifier in dict.fromkeys(identifiers)
+    ]
+
+
 def job_key(job: Job) -> str:
     company = re.sub(r"\s+\([^)]*\)$", "", job.company.casefold())
     normalize = lambda value: re.sub(r"[^a-z0-9]+", "", value.casefold())
@@ -586,7 +794,11 @@ def deduplicate_jobs(jobs: list[Job]) -> list[Job]:
         current = unique.get(key)
         if current is None or job.match_score > current.match_score:
             unique[key] = job
-        elif job.match_score == current.match_score and job.source == "Ashby":
+        elif job.match_score == current.match_score and job.source in {
+            "Ashby",
+            "Greenhouse",
+            "Lever",
+        }:
             unique[key] = job
     return list(unique.values())
 
@@ -594,6 +806,8 @@ def deduplicate_jobs(jobs: list[Job]) -> list[Job]:
 def scrape(
     profile: dict,
     ashby_boards: list[str],
+    greenhouse_boards: list[tuple[str, str]] | None = None,
+    lever_sites: list[tuple[str, str]] | None = None,
     keywords: tuple[str, ...] | None = None,
     max_days: int = 2,
     delay: float = 0.35,
@@ -667,9 +881,38 @@ def scrape(
             f"Portfolio boards exposed {len(discovered_boards)} Ashby board(s) "
             f"({len(new_boards)} new)."
         )
+        greenhouse_boards = greenhouse_boards or []
+        discovered_greenhouse = discover_named_ats_sites(
+            discovery_html,
+            {"boards.greenhouse.io", "job-boards.greenhouse.io"},
+        )
+        all_greenhouse = list(
+            {
+                identifier: name
+                for identifier, name in [*discovered_greenhouse, *greenhouse_boards]
+            }.items()
+        )
+        lever_sites = lever_sites or []
+        discovered_lever = discover_named_ats_sites(
+            discovery_html, {"jobs.lever.co"}
+        )
+        all_lever = list(
+            {
+                identifier: name
+                for identifier, name in [*discovered_lever, *lever_sites]
+            }.items()
+        )
+        print(
+            f"Portfolio boards exposed {len(discovered_greenhouse)} Greenhouse "
+            f"board(s) and {len(discovered_lever)} Lever site(s)."
+        )
         found.extend(
             scrape_ashby(session, profile, all_ashby_boards, max_days, delay)
         )
+        found.extend(
+            scrape_greenhouse(session, profile, all_greenhouse, max_days, delay)
+        )
+        found.extend(scrape_lever(session, profile, all_lever, max_days, delay))
         found.extend(portfolio_jobs)
 
     return sorted(
@@ -707,6 +950,18 @@ def build_parser() -> argparse.ArgumentParser:
         help="Ashby startup watchlist (default: data/ashby_boards.txt)",
     )
     parser.add_argument(
+        "--greenhouse-boards",
+        type=Path,
+        default=DEFAULT_GREENHOUSE_BOARDS,
+        help="Greenhouse startup watchlist (default: data/greenhouse_boards.txt)",
+    )
+    parser.add_argument(
+        "--lever-sites",
+        type=Path,
+        default=DEFAULT_LEVER_SITES,
+        help="Lever startup watchlist (default: data/lever_sites.txt)",
+    )
+    parser.add_argument(
         "--max-days",
         type=int,
         default=2,
@@ -728,8 +983,15 @@ def main() -> None:
     keywords = tuple(args.keywords) if args.keywords else None
     profile = load_profile(args.profile)
     boards = load_ashby_boards(args.ashby_boards)
+    greenhouse_boards = load_named_watchlist(args.greenhouse_boards)
+    lever_sites = load_named_watchlist(args.lever_sites)
     jobs = scrape(
-        profile, boards, keywords=keywords, max_days=args.max_days
+        profile,
+        boards,
+        greenhouse_boards,
+        lever_sites,
+        keywords=keywords,
+        max_days=args.max_days,
     )
     save_csv(jobs, args.output)
 

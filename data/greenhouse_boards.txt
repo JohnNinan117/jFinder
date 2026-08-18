@@ -1,0 +1,11 @@
+# Greenhouse board token followed by the display name.
+# From https://job-boards.greenhouse.io/BOARD_TOKEN
+gleanwork|Glean
+clerk-ai|Clerk Chat
+peregrinetechnologies|Peregrine Technologies
+vercel|Vercel
+emergentlabsinc|Emergent
+chaosindustries|CHAOS Industries
+togetherai|Together AI
+anthropic|Anthropic
+scaleai|Scale AI

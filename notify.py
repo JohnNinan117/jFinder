@@ -13,9 +13,12 @@ import requests
 
 from scraper import (
     DEFAULT_ASHBY_BOARDS,
+    DEFAULT_GREENHOUSE_BOARDS,
+    DEFAULT_LEVER_SITES,
     DEFAULT_PROFILE,
     Job,
     load_ashby_boards,
+    load_named_watchlist,
     load_profile,
     save_csv,
     scrape,
@@ -129,7 +132,15 @@ def main() -> None:
 
     profile = load_profile(DEFAULT_PROFILE)
     boards = load_ashby_boards(DEFAULT_ASHBY_BOARDS)
-    jobs = scrape(profile, boards, max_days=args.max_days)
+    greenhouse_boards = load_named_watchlist(DEFAULT_GREENHOUSE_BOARDS)
+    lever_sites = load_named_watchlist(DEFAULT_LEVER_SITES)
+    jobs = scrape(
+        profile,
+        boards,
+        greenhouse_boards,
+        lever_sites,
+        max_days=args.max_days,
+    )
     save_csv(jobs, Path("jobs.csv"))
 
     state_exists = args.state.exists()

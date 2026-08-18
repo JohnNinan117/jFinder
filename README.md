@@ -9,10 +9,11 @@ software-engineering, and remote software-engineering pages, removes duplicate
 listings, keeps only jobs posted within the last two days, and scores each job
 description using the skills and target roles in `resume_profile.json`.
 
-It also searches selected startup boards through Ashby's official public API,
-plus the a16z, Sequoia, Accel, and General Catalyst portfolio job boards. The
-portfolio boards are dynamic, so those sources use an installed Google Chrome
-or Chromium in headless mode; if no browser is found, YC and Ashby still run.
+It also searches selected startup boards through the public Ashby, Greenhouse,
+and Lever job feeds, plus the a16z, Sequoia, Accel, and General Catalyst
+portfolio job boards. The portfolio boards are dynamic, so those sources use
+an installed Google Chrome or Chromium in headless mode; if no browser is
+found, YC and the three direct ATS feeds still run.
 Large-company listings receive a strong score penalty because the goal is a
 higher chance of review by a small hiring team, not maximum job volume.
 
@@ -50,6 +51,12 @@ links in the current a16z results and searches those companies' complete public
 boards automatically, so the source list can grow without manual edits. Every
 run prints how many boards were discovered and reached, how many jobs met the
 two-day cutoff, and how many survived resume scoring.
+
+Greenhouse and Lever companies work the same way. Add entries to
+`data/greenhouse_boards.txt` or `data/lever_sites.txt` as
+`company-identifier|Display Name`. jFinder uses Greenhouse's first-published
+time and Lever's creation time for the two-day cutoff. It also discovers
+Ashby, Greenhouse, and Lever links exposed by the a16z and Sequoia boards.
 
 Location scoring prioritizes San Francisco and the Bay Area, followed by New
 York and Texas. Toronto and remote roles remain eligible. US jobs are not
