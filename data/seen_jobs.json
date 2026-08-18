@@ -11,6 +11,12 @@
     "company": "Cresta",
     "source": "Sequoia Portfolio Jobs"
   },
+  "https://job-boards.greenhouse.io/dialpad/jobs/8727517002": {
+    "first_seen": "2026-08-18T19:44:38+00:00",
+    "title": "Forward Deployed Engineer",
+    "company": "Dialpad",
+    "source": "Greenhouse"
+  },
   "https://jobs.ashbyhq.com/Mintlify/ec55d98f-6e94-4ffb-9a55-4adad39297c3?utm_source=portfoliojobs.a16z.com": {
     "first_seen": "2026-08-18T16:52:28+00:00",
     "title": "Applied AI Engineer",
@@ -46,6 +52,12 @@
     "title": "Product Engineer, Full Stack - Agents",
     "company": "OpenAI",
     "source": "a16z Portfolio Jobs"
+  },
+  "https://jobs.ashbyhq.com/openai/71838fdf-4476-490c-81b6-4bf0746f6774/application": {
+    "first_seen": "2026-08-18T19:44:38+00:00",
+    "title": "Software Engineer, Plugin Developer Platform",
+    "company": "openai",
+    "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/openai/7be58f3a-6005-42ed-86fa-77773ebfb294/application": {
     "first_seen": "2026-08-18T16:52:28+00:00",
