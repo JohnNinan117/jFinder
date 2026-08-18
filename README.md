@@ -39,7 +39,9 @@ FDE, solutions, full-stack, product, backend, data, and new-grad roles. Senior,
 staff, principal, founding-engineer, management, and executive titles are
 skipped by default. Listings that state a minimum of more than one year of
 experience are also skipped; change `maximum_required_experience_years` in
-`resume_profile.json` if that cutoff changes.
+`resume_profile.json` if that cutoff changes. A software and customer-facing
+title allowlist prevents unrelated engineering disciplines from passing based
+only on incidental résumé keywords.
 
 The CSV includes a numeric `match_score` and plain-language `match_reasons`.
 Edit `resume_profile.json` whenever the resume or job targets change.
@@ -68,6 +70,11 @@ possible TN case is left for manual review. Explicit citizenship, clearance,
 or existing-work-authorization language is penalized and shown in the
 `eligibility_notes` CSV column. Roles explicitly limited to APAC, EMEA, or
 other non-North-American regions are skipped.
+
+Portfolio-board summary cards are never trusted as complete job descriptions.
+Ashby, Greenhouse, and Lever links are evaluated through their direct feeds;
+other portfolio links must return a full public description before they can
+be scored or sent to Discord.
 
 Two days is the default maximum age. You can choose a different cutoff:
 

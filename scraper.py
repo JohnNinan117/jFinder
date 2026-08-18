@@ -344,6 +344,11 @@ def excluded_title(title: str, profile: dict) -> bool:
 def keep_scored(job: Job, description: str, profile: dict) -> Job | None:
     if excluded_title(job.title, profile):
         return None
+    required_titles = profile.get("required_title_terms", [])
+    if required_titles and not any(
+        contains_term(job.title, term) for term in required_titles
+    ):
+        return None
     location_text = f"{job.title} {job.details}"
     if any(
         contains_term(location_text, term)
@@ -686,8 +691,44 @@ def consider_company(card: BeautifulSoup) -> tuple[str, str]:
     return company, company_context
 
 
+DIRECT_ATS_HOSTS = {
+    "api.lever.co",
+    "boards.greenhouse.io",
+    "boards-api.greenhouse.io",
+    "job-boards.greenhouse.io",
+    "jobs.ashbyhq.com",
+    "jobs.lever.co",
+}
+
+
+def direct_ats_url(url: str) -> bool:
+    """Return True when a direct feed later supplies the complete posting."""
+    return urlparse(url).hostname in DIRECT_ATS_HOSTS
+
+
+def fetch_full_job_text(
+    session: requests.Session, url: str, source: str
+) -> str | None:
+    """Fetch a non-ATS portfolio result rather than trusting its summary card."""
+    try:
+        response = session.get(url, timeout=20)
+        response.raise_for_status()
+    except requests.RequestException as error:
+        print(f"Skipping incomplete {source} listing: {url} ({error})")
+        return None
+    text = BeautifulSoup(response.text, "html.parser").get_text(" ", strip=True)
+    if len(text) < 200:
+        print(f"Skipping incomplete {source} listing: {url} (no full description)")
+        return None
+    return text
+
+
 def parse_consider_jobs(
-    html: str, profile: dict, max_days: int, source: str
+    html: str,
+    profile: dict,
+    max_days: int,
+    source: str,
+    session: requests.Session | None = None,
 ) -> list[Job]:
     soup = BeautifulSoup(html, "html.parser")
     found: list[Job] = []
@@ -722,6 +763,15 @@ def parse_consider_jobs(
             source=source,
         )
         searchable = f"{card.get_text(' ', strip=True)} {company_context}"
+        if session is not None:
+            if direct_ats_url(job.url):
+                # The discovered Ashby/Greenhouse/Lever feed below will use the
+                # complete description and authoritative published timestamp.
+                continue
+            full_text = fetch_full_job_text(session, job.url, source)
+            if full_text is None:
+                continue
+            searchable = f"{full_text} {company_context}"
         scored = keep_scored(job, searchable, profile)
         if scored:
             found.append(scored)
@@ -733,7 +783,12 @@ def parse_a16z_jobs(html: str, profile: dict, max_days: int) -> list[Job]:
 
 
 def parse_getro_jobs(
-    html: str, profile: dict, max_days: int, source: str, board_url: str
+    html: str,
+    profile: dict,
+    max_days: int,
+    source: str,
+    board_url: str,
+    session: requests.Session | None = None,
 ) -> list[Job]:
     soup = BeautifulSoup(html, "html.parser")
     found: list[Job] = []
@@ -769,7 +824,15 @@ def parse_getro_jobs(
             url=urljoin(board_url, title_link.get("href", "")),
             source=source,
         )
-        scored = keep_scored(job, card.get_text(" ", strip=True), profile)
+        description = card.get_text(" ", strip=True)
+        if session is not None:
+            if direct_ats_url(job.url):
+                continue
+            full_text = fetch_full_job_text(session, job.url, source)
+            if full_text is None:
+                continue
+            description = full_text
+        scored = keep_scored(job, description, profile)
         if scored:
             found.append(scored)
     return found
@@ -893,11 +956,15 @@ def scrape(
 
         portfolio_jobs: list[Job] = []
         for source, html in consider_pages:
-            matches = parse_consider_jobs(html, profile, max_days, source)
+            matches = parse_consider_jobs(
+                html, profile, max_days, source, session=session
+            )
             portfolio_jobs.extend(matches)
             print(f"{source}: kept {len(matches)} direct resume match(es).")
         for source, url, html in getro_pages:
-            matches = parse_getro_jobs(html, profile, max_days, source, url)
+            matches = parse_getro_jobs(
+                html, profile, max_days, source, url, session=session
+            )
             portfolio_jobs.extend(matches)
             print(f"{source}: kept {len(matches)} direct resume match(es).")
 

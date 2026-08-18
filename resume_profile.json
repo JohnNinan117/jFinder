@@ -1,6 +1,33 @@
 {
   "minimum_score": 12,
   "maximum_required_experience_years": 1,
+  "required_title_terms": [
+    "forward deployed",
+    "software engineer",
+    "software engineering",
+    "solutions engineer",
+    "solutions architect",
+    "implementation engineer",
+    "customer engineer",
+    "product engineer",
+    "full stack",
+    "fullstack",
+    "backend engineer",
+    "data engineer",
+    "ai engineer",
+    "machine learning engineer",
+    "ml engineer",
+    "application engineer",
+    "deployment engineer",
+    "sales engineer",
+    "support engineer",
+    "systems engineer",
+    "network engineer",
+    "automation engineer",
+    "technical solutions",
+    "developer",
+    "data scientist"
+  ],
   "excluded_title_terms": [
     "senior",
     "staff",
@@ -15,7 +42,13 @@
     "founding software engineer",
     "first engineer",
     "first engineering hire",
-    "engineer #1"
+    "engineer #1",
+    "research engineer",
+    "electrical engineer",
+    "mechanical engineer",
+    "hardware engineer",
+    "firmware engineer",
+    "rf engineer"
   ],
   "preferred_title_terms": {
     "forward deployed": 8,
@@ -77,7 +110,12 @@
     "india",
     "singapore",
     "australia",
-    "new zealand"
+    "new zealand",
+    "abu dhabi",
+    "united arab emirates",
+    "uae",
+    "dubai",
+    "middle east"
   ],
   "eligibility_review_terms": {
     "us citizen only": -20,
