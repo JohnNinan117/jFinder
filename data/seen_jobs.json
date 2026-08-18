@@ -1,0 +1,86 @@
+{
+  "https://job-boards.greenhouse.io/cresta/jobs/5389409008": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Customer Engineer, APAC",
+    "company": "Cresta",
+    "source": "Sequoia Portfolio Jobs"
+  },
+  "https://jobs.ashbyhq.com/kong/a9162a3b-d834-4ca2-b2ac-9a140b9b5436/application": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Software Engineer, Core Platform",
+    "company": "kong",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c/application": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Product Engineer, Full Stack - Agents",
+    "company": "openai",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/openai/894ce80d-c587-4ef0-92d2-b16deb9a06b9/application": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Data Scientist, Cybersecurity ",
+    "company": "openai",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b/application": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Software Engineer, Model Deployment- ChatGPT Engineering",
+    "company": "openai",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/traversal/7c37b968-0dc6-4ac3-89e3-1261883a0a96?utm_source=jobs.sequoiacap.com": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "AI Research Engineer",
+    "company": "Traversal",
+    "source": "Sequoia Portfolio Jobs"
+  },
+  "https://www.ycombinator.com/companies/aviator/jobs/2fmcI6d-software-engineer-fullstack": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Software engineer, Fullstack",
+    "company": "Aviator (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/boldvoice/jobs/BSms6T6-fullstack-engineer": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Fullstack Engineer",
+    "company": "BoldVoice (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/confido/jobs/HihnMex-software-engineer": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Software Engineer",
+    "company": "Confido (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/educato/jobs/g72g1Ya-full-stack-software-engineer-remote": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Full Stack Software Engineer - Remote \ud83c\udf0d",
+    "company": "Educato (S24)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Backend Engineer",
+    "company": "GoGoGrandparent (S16)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/ridecell/jobs/tsG1ZOJ-solutions-support-engineer": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Solutions Support Engineer",
+    "company": "Ridecell (W12)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/stardex/jobs/4oOXnyY-full-stack-engineer": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Full Stack Engineer",
+    "company": "Stardex (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/traceroot-ai/jobs/RCbNRRq-software-engineering-intern": {
+    "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Software Engineering Intern",
+    "company": "TraceRoot.AI (S25)",
+    "source": "Y Combinator Jobs"
+  }
+}
