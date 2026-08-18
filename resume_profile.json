@@ -1,5 +1,6 @@
 {
   "minimum_score": 12,
+  "maximum_required_experience_years": 1,
   "excluded_title_terms": [
     "senior",
     "staff",

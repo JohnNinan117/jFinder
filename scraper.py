@@ -118,6 +118,92 @@ def contains_term(text: str, term: str) -> bool:
     return bool(re.search(rf"(?<!\w){re.escape(term.casefold())}(?!\w)", text.casefold()))
 
 
+EXPERIENCE_NUMBER_WORDS = {
+    "zero": 0,
+    "one": 1,
+    "two": 2,
+    "three": 3,
+    "four": 4,
+    "five": 5,
+    "six": 6,
+    "seven": 7,
+    "eight": 8,
+    "nine": 9,
+    "ten": 10,
+}
+EXPERIENCE_NUMBER = r"\d+(?:\.\d+)?|" + "|".join(EXPERIENCE_NUMBER_WORDS)
+EXPERIENCE_UNIT = r"years?|yrs?|months?|mos?"
+
+
+def experience_amount(number: str, unit: str) -> float:
+    """Convert a written experience amount to years."""
+    value = float(EXPERIENCE_NUMBER_WORDS.get(number, number))
+    return value / 12 if unit.startswith(("month", "mo")) else value
+
+
+def required_experience_years(text: str) -> float | None:
+    """Return the highest clearly stated minimum experience requirement."""
+    normalized = (
+        text.casefold()
+        .replace("–", "-")
+        .replace("—", "-")
+        .replace("’", "'")
+    )
+    amounts: list[float] = []
+
+    range_pattern = (
+        rf"\b(?P<number>{EXPERIENCE_NUMBER})\s*(?:-|to)\s*"
+        rf"(?:{EXPERIENCE_NUMBER})\s*(?P<unit>{EXPERIENCE_UNIT})\b"
+    )
+    for match in re.finditer(range_pattern, normalized):
+        amounts.append(
+            experience_amount(match.group("number"), match.group("unit"))
+        )
+    # Prevent the upper end of a range from also looking like a standalone minimum.
+    searchable = re.sub(range_pattern, " ", normalized)
+
+    patterns = (
+        # "at least 2 years", "minimum experience of two years"
+        rf"\b(?:at\s+least|minimum(?:\s+experience)?(?:\s+of)?|requires?|requiring)\s+"
+        rf"(?P<number>{EXPERIENCE_NUMBER})\s*(?P<unit>{EXPERIENCE_UNIT})\b",
+        # "2+ years", "two or more years"
+        rf"\b(?P<number>{EXPERIENCE_NUMBER})\s*(?:\+|plus|or\s+more)\s*"
+        rf"(?P<unit>{EXPERIENCE_UNIT})\b(?!\s+old\b)",
+        # "2 years of professional experience", "24 months' experience"
+        rf"\b(?P<number>{EXPERIENCE_NUMBER})\s*(?P<unit>{EXPERIENCE_UNIT})"
+        rf"(?:\s+of|'s?)?\s+(?:\w+\s+){{0,5}}experience\b",
+        # "2 years working with Python", "two years in backend engineering"
+        rf"\b(?P<number>{EXPERIENCE_NUMBER})\s*(?P<unit>{EXPERIENCE_UNIT})\s+"
+        rf"(?:working|building|developing|designing|programming|coding|in|as|with)\b",
+        # "experience of 2 years"
+        rf"\bexperience(?:\s+of|\s*:)?\s+(?P<number>{EXPERIENCE_NUMBER})\s*"
+        rf"(?P<unit>{EXPERIENCE_UNIT})\b",
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, searchable):
+            amounts.append(
+                experience_amount(match.group("number"), match.group("unit"))
+            )
+
+    # "more than/over 1 year" is stricter than a one-year maximum.
+    strict_pattern = (
+        rf"\b(?:more\s+than|over)\s+(?P<number>{EXPERIENCE_NUMBER})\s*"
+        rf"(?P<unit>{EXPERIENCE_UNIT})\b"
+    )
+    for match in re.finditer(strict_pattern, searchable):
+        amounts.append(
+            experience_amount(match.group("number"), match.group("unit")) + 0.001
+        )
+
+    return max(amounts) if amounts else None
+
+
+def exceeds_experience_limit(text: str, profile: dict) -> bool:
+    maximum = profile.get("maximum_required_experience_years")
+    required = required_experience_years(text)
+    return maximum is not None and required is not None and required > maximum
+
+
 def score_job(job: Job, description: str, profile: dict) -> Job:
     """Score one role using the editable resume profile."""
     title = job.title.casefold()
@@ -221,6 +307,9 @@ def excluded_title(title: str, profile: dict) -> bool:
 
 def keep_scored(job: Job, description: str, profile: dict) -> Job | None:
     if excluded_title(job.title, profile):
+        return None
+    searchable = f"{job.title} {job.details} {description}"
+    if exceeds_experience_limit(searchable, profile):
         return None
     scored = score_job(job, description, profile)
     return scored if scored.match_score >= profile["minimum_score"] else None
@@ -539,8 +628,8 @@ def scrape(
             print(f"Skipping unavailable listing: {job.url} ({error})")
             continue
         description = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
-        scored_job = score_job(job, description, profile)
-        if scored_job.match_score >= profile["minimum_score"]:
+        scored_job = keep_scored(job, description, profile)
+        if scored_job:
             found.append(scored_job)
 
     if not keywords:

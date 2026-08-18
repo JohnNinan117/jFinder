@@ -36,7 +36,9 @@ The profile is based on the supplied resume: Python, SQL, React, Node.js,
 TypeScript, data/ETL work, APIs, Linux, and networking. It gives extra weight to
 FDE, solutions, full-stack, product, backend, data, and new-grad roles. Senior,
 staff, principal, founding-engineer, management, and executive titles are
-skipped by default.
+skipped by default. Listings that state a minimum of more than one year of
+experience are also skipped; change `maximum_required_experience_years` in
+`resume_profile.json` if that cutoff changes.
 
 The CSV includes a numeric `match_score` and plain-language `match_reasons`.
 Edit `resume_profile.json` whenever the resume or job targets change.
