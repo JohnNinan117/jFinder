@@ -93,7 +93,9 @@ The workflow in `.github/workflows/job-alerts.yml` runs on GitHub's servers at
 17 minutes past every hour. The first normal run records the current matches
 without sending a flood of old jobs. Later runs post only newly seen,
 resume-matched jobs to Discord and commit the URL history in
-`data/seen_jobs.json`.
+`data/seen_jobs.json`. Every real run also prints a collapsible list of all
+current matches in the Actions log, including each job's score, detected
+experience requirement, match reasons, status, and application URL.
 
 1. In Discord, open your private job-alert channel and choose **Edit Channel →
    Integrations → Webhooks → New Webhook**, then copy its webhook URL.

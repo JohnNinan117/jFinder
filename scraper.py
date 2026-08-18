@@ -50,6 +50,7 @@ class Job:
     eligibility_notes: str
     url: str
     source: str = "Y Combinator Jobs"
+    experience_requirement: str = "Not stated"
 
 
 def fetch_page(session: requests.Session, path: str) -> str:
@@ -206,6 +207,16 @@ def exceeds_experience_limit(text: str, profile: dict) -> bool:
     return maximum is not None and required is not None and required > maximum
 
 
+def experience_requirement_label(required: float | None) -> str:
+    if required is None:
+        return "Not stated"
+    if required < 1:
+        months = round(required * 12)
+        return f"{months} month{'s' if months != 1 else ''} minimum"
+    years = int(required) if required.is_integer() else required
+    return f"{years} year{'s' if years != 1 else ''} minimum"
+
+
 def score_job(job: Job, description: str, profile: dict) -> Job:
     """Score one role using the editable resume profile."""
     title = job.title.casefold()
@@ -340,10 +351,21 @@ def keep_scored(job: Job, description: str, profile: dict) -> Job | None:
     ):
         return None
     searchable = f"{job.title} {job.details} {description}"
-    if exceeds_experience_limit(searchable, profile):
+    required_experience = required_experience_years(searchable)
+    maximum = profile.get("maximum_required_experience_years")
+    if (
+        maximum is not None
+        and required_experience is not None
+        and required_experience > maximum
+    ):
         return None
     scored = score_job(job, description, profile)
-    return scored if scored.match_score >= profile["minimum_score"] else None
+    if scored.match_score < profile["minimum_score"]:
+        return None
+    return replace(
+        scored,
+        experience_requirement=experience_requirement_label(required_experience),
+    )
 
 
 def scrape_ashby(

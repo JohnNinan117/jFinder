@@ -106,6 +106,40 @@ def send_jobs(webhook_url: str, jobs: list[Job]) -> None:
         post_discord(webhook_url, payload)
 
 
+def one_line(value: str) -> str:
+    """Keep external job-board text from creating misleading log lines."""
+    return " ".join(str(value).split())
+
+
+def print_current_matches(
+    jobs: list[Job],
+    seen: dict[str, dict[str, str]],
+    state_exists: bool,
+) -> None:
+    """Print a collapsible, review-friendly match list in GitHub Actions."""
+    print(f"::group::Current resume matches ({len(jobs)})")
+    if not jobs:
+        print("No current matches passed every filter.")
+    for index, job in enumerate(jobs, start=1):
+        status = (
+            "NEW"
+            if state_exists and job.url not in seen
+            else "SEEN" if state_exists else "BASELINE"
+        )
+        print(f"[{index}] [{status}] {one_line(job.title)} — {one_line(job.company)}")
+        print(
+            f"    Source: {one_line(job.source)} | Posted: {one_line(job.posted)} "
+            f"| Score: {job.match_score} | Experience: "
+            f"{one_line(job.experience_requirement)}"
+        )
+        print(f"    Details: {one_line(job.details) or 'Not listed'}")
+        print(f"    Matched: {one_line(job.match_reasons) or 'No reasons recorded'}")
+        if job.eligibility_notes:
+            print(f"    Eligibility: {one_line(job.eligibility_notes)}")
+        print(f"    URL: {one_line(job.url)}")
+    print("::endgroup::")
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--test", action="store_true", help="Send a test message only")
@@ -145,6 +179,7 @@ def main() -> None:
 
     state_exists = args.state.exists()
     seen = load_seen(args.state)
+    print_current_matches(jobs, seen, state_exists)
     if not state_exists:
         if not jobs:
             raise SystemExit("No jobs were found, so jFinder did not initialize its history.")
