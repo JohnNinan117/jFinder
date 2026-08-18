@@ -115,6 +115,10 @@ experience requirement, match reasons, status, and application URL.
    message.
 6. Run it once more without the test option to initialize the job history.
 
+For an on-demand scan, leave both options unchecked. To resend every job that
+currently passes the filters, check **Send every current match** and leave the
+test option unchecked. Scheduled runs always continue to send new matches only.
+
 Never paste the Discord webhook into a project file or commit it to Git. GitHub
 may delay scheduled jobs during busy periods, and it disables scheduled
 workflows in public repositories after 60 days without repository activity.

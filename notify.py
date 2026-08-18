@@ -97,12 +97,15 @@ def post_discord(webhook_url: str, payload: dict) -> None:
     response.raise_for_status()
 
 
-def send_jobs(webhook_url: str, jobs: list[Job]) -> None:
+def send_jobs(webhook_url: str, jobs: list[Job], *, send_all: bool = False) -> None:
     for start in range(0, len(jobs), DISCORD_EMBED_LIMIT):
         batch = jobs[start : start + DISCORD_EMBED_LIMIT]
         payload = {"embeds": [job_embed(job) for job in batch]}
         if start == 0:
-            payload["content"] = f"🔎 jFinder found {len(jobs)} new resume match(es)."
+            match_type = "current" if send_all else "new"
+            payload["content"] = (
+                f"🔎 jFinder found {len(jobs)} {match_type} resume match(es)."
+            )
         post_discord(webhook_url, payload)
 
 
@@ -142,7 +145,13 @@ def print_current_matches(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--test", action="store_true", help="Send a test message only")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--test", action="store_true", help="Send a test message only")
+    mode.add_argument(
+        "--send-all",
+        action="store_true",
+        help="Send every current match, including jobs already seen",
+    )
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
     parser.add_argument("--max-days", type=int, default=2)
     return parser
@@ -180,6 +189,17 @@ def main() -> None:
     state_exists = args.state.exists()
     seen = load_seen(args.state)
     print_current_matches(jobs, seen, state_exists)
+
+    if args.send_all:
+        if not jobs:
+            print("No current resume-matched jobs to send.")
+            return
+        send_jobs(webhook_url, jobs, send_all=True)
+        remember_jobs(seen, jobs)
+        save_seen(args.state, seen)
+        print(f"Sent all {len(jobs)} current job match(es) to Discord.")
+        return
+
     if not state_exists:
         if not jobs:
             raise SystemExit("No jobs were found, so jFinder did not initialize its history.")

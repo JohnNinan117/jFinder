@@ -11,6 +11,11 @@ on:
         required: false
         default: false
         type: boolean
+      send_all_matches:
+        description: "Send every current match, including jobs already seen"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -43,14 +48,20 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python notify.py --test
 
+      - name: Send all current matches
+        if: github.event_name == 'workflow_dispatch' && !inputs.test_notification && inputs.send_all_matches
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python notify.py --send-all
+
       - name: Find and notify new jobs
-        if: github.event_name == 'schedule' || !inputs.test_notification
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.test_notification && !inputs.send_all_matches)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python notify.py
 
       - name: Save job history
-        if: github.event_name == 'schedule' || !inputs.test_notification
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.test_notification)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
