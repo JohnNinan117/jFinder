@@ -1,0 +1,24 @@
+# One Ashby job-board name per line. The name is the final part of
+# https://jobs.ashbyhq.com/BOARD_NAME
+Mintlify
+cowboyspace
+reindeer-ai
+cerebras
+numeral
+sentra
+ema
+Anon
+stradahq
+simple-ai
+vapi
+decagon
+applied
+benchling
+exa
+hadrian-automation
+harvey
+heron-power
+mindrobotics
+openai
+skydio
+Spoton
