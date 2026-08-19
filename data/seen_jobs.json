@@ -53,6 +53,12 @@
     "company": "kong",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/langchain/bdcced92-2dca-49b0-bc33-4ec0cf5a8e00/application": {
+    "first_seen": "2026-08-19T01:57:24+00:00",
+    "title": "Platform Software Engineer, Ingestion ",
+    "company": "langchain",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/openai/2226c39d-371b-4dec-bf60-2d76dbe4c445/application": {
     "first_seen": "2026-08-18T17:48:41+00:00",
     "title": "Applied AI Engineer",
@@ -137,6 +143,12 @@
     "company": "GoGoGrandparent (S16)",
     "source": "Y Combinator Jobs"
   },
+  "https://www.ycombinator.com/companies/porter/jobs/GjO3enf-backend-engineer-go": {
+    "first_seen": "2026-08-19T01:57:24+00:00",
+    "title": "Backend Engineer (Go)",
+    "company": "Porter (S20)",
+    "source": "Y Combinator Jobs"
+  },
   "https://www.ycombinator.com/companies/ridecell/jobs/tsG1ZOJ-solutions-support-engineer": {
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Solutions Support Engineer",
@@ -153,6 +165,12 @@
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Software Engineering Intern",
     "company": "TraceRoot.AI (S25)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/wolfia/jobs/jU5xZWx-software-engineer-full-stack-ai-native": {
+    "first_seen": "2026-08-19T01:57:24+00:00",
+    "title": "Software Engineer (Full-Stack, AI-Native)",
+    "company": "Wolfia (S22)",
     "source": "Y Combinator Jobs"
   }
 }
