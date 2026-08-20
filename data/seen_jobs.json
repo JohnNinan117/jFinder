@@ -173,6 +173,18 @@
     "company": "GoGoGrandparent (S16)",
     "source": "Y Combinator Jobs"
   },
+  "https://www.ycombinator.com/companies/litellm/jobs/2gwsUNT-product-engineer": {
+    "first_seen": "2026-08-20T03:14:51+00:00",
+    "title": "Product Engineer",
+    "company": "LiteLLM (W23)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/onshore/jobs/FC9N3in-software-engineer-i-nyc": {
+    "first_seen": "2026-08-20T03:14:51+00:00",
+    "title": "Software Engineer I (NYC)",
+    "company": "Onshore (W23)",
+    "source": "Y Combinator Jobs"
+  },
   "https://www.ycombinator.com/companies/porter/jobs/GjO3enf-backend-engineer-go": {
     "first_seen": "2026-08-19T01:57:24+00:00",
     "title": "Backend Engineer (Go)",
