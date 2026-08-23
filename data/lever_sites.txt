@@ -1,15 +1,8 @@
 # Lever site name followed by the display name.
 # From https://jobs.lever.co/SITE_NAME
-palantir|Palantir
 RadicalAI|Radical AI
 windfalldata|Windfall
 intenseye|Intenseye
 copia|Copia Automation
-snaplogic|SnapLogic
-aeratechnology|Aera Technology
 toku|Toku
-benchsci|BenchSci
-waabi|Waabi
 ravl_io|RAVL
-captivateiq|CaptivateIQ
-anyscale|Anyscale

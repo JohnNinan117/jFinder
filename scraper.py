@@ -30,8 +30,15 @@ DEFAULT_PROFILE = Path(__file__).with_name("resume_profile.json")
 DEFAULT_ASHBY_BOARDS = Path(__file__).parent / "data" / "ashby_boards.txt"
 DEFAULT_GREENHOUSE_BOARDS = Path(__file__).parent / "data" / "greenhouse_boards.txt"
 DEFAULT_LEVER_SITES = Path(__file__).parent / "data" / "lever_sites.txt"
-A16Z_URL = "https://portfoliojobs.a16z.com/jobs"
-SEQUOIA_URL = "https://jobs.sequoiacap.com/jobs"
+CONSIDER_BOARDS = (
+    ("a16z Portfolio Jobs", "https://portfoliojobs.a16z.com/jobs"),
+    ("Sequoia Portfolio Jobs", "https://jobs.sequoiacap.com/jobs"),
+    ("Bessemer Portfolio Jobs", "https://jobs.bvp.com/jobs"),
+    ("Greylock Portfolio Jobs", "https://jobs.greylock.com/jobs"),
+    ("First Round Portfolio Jobs", "https://jobs.firstround.com/jobs"),
+    ("Contrary Portfolio Jobs", "https://jobs.contrary.com/jobs"),
+    ("Felicis Portfolio Jobs", "https://jobs.felicis.com/jobs"),
+)
 GETRO_BOARDS = (
     ("Accel Portfolio Jobs", "https://jobs.accel.com/jobs"),
     ("General Catalyst Jobs", "https://jobs.generalcatalyst.com/jobs"),
@@ -341,8 +348,21 @@ def excluded_title(title: str, profile: dict) -> bool:
     return any(contains_term(title, term) for term in profile["excluded_title_terms"])
 
 
+def excluded_company(company: str, profile: dict) -> bool:
+    """Reject mature employers that can reappear through portfolio discovery."""
+    without_batch = re.sub(r"\s+\([^)]*\)$", "", company.casefold()).strip()
+    normalized = re.sub(r"[^a-z0-9]+", "", without_batch)
+    exclusions = [
+        *profile.get("excluded_companies", []),
+        *profile.get("excluded_company_identifiers", []),
+    ]
+    return normalized in {
+        re.sub(r"[^a-z0-9]+", "", name.casefold()) for name in exclusions
+    }
+
+
 def keep_scored(job: Job, description: str, profile: dict) -> Job | None:
-    if excluded_title(job.title, profile):
+    if excluded_title(job.title, profile) or excluded_company(job.company, profile):
         return None
     required_titles = profile.get("required_title_terms", [])
     if required_titles and not any(
@@ -356,6 +376,11 @@ def keep_scored(job: Job, description: str, profile: dict) -> Job | None:
     ):
         return None
     searchable = f"{job.title} {job.details} {description}"
+    if any(
+        contains_term(searchable, term)
+        for term in profile.get("excluded_company_size_terms", [])
+    ):
+        return None
     required_experience = required_experience_years(searchable)
     maximum = profile.get("maximum_required_experience_years")
     if (
@@ -939,10 +964,7 @@ def scrape(
 
     if not keywords:
         consider_pages: list[tuple[str, str]] = []
-        for source, url in (
-            ("a16z Portfolio Jobs", A16Z_URL),
-            ("Sequoia Portfolio Jobs", SEQUOIA_URL),
-        ):
+        for source, url in CONSIDER_BOARDS:
             html = render_dynamic_board(
                 consider_url(url, max_days), source, "job-list-job"
             )

@@ -10,12 +10,13 @@ listings, keeps only jobs posted within the last two days, and scores each job
 description using the skills and target roles in `resume_profile.json`.
 
 It also searches selected startup boards through the public Ashby, Greenhouse,
-and Lever job feeds, plus the a16z, Sequoia, Accel, and General Catalyst
-portfolio job boards. The portfolio boards are dynamic, so those sources use
-an installed Google Chrome or Chromium in headless mode; if no browser is
-found, YC and the three direct ATS feeds still run.
-Large-company listings receive a strong score penalty because the goal is a
-higher chance of review by a small hiring team, not maximum job volume.
+and Lever job feeds. Dynamic discovery covers a16z, Sequoia, Bessemer,
+Greylock, First Round, Contrary, Felicis, Accel, and General Catalyst portfolio
+boards. Those sources use an installed Google Chrome or Chromium in headless
+mode; if no browser is found, YC and the three direct ATS feeds still run.
+Known mature employers and portfolio companies explicitly labeled above 200
+employees are skipped because the goal is a higher chance of review by a small
+hiring team, not maximum job volume.
 
 ## Setup
 
@@ -48,9 +49,10 @@ Edit `resume_profile.json` whenever the resume or job targets change.
 
 Edit `data/ashby_boards.txt` to add an Ashby startup. For example, the board
 name in `https://jobs.ashbyhq.com/Mintlify` is `Mintlify`. The starter
-watchlist contains 22 verified boards. Each run also finds Ashby application
-links in the current a16z results and searches those companies' complete public
-boards automatically, so the source list can grow without manual edits. Every
+watchlist contains 37 smaller-company boards. Each run also finds Ashby
+application links in the current portfolio results and searches those
+companies' complete public boards automatically, so the source list can grow
+without manual edits. Every
 run prints how many boards were discovered and reached, how many jobs met the
 two-day cutoff, and how many survived resume scoring.
 
@@ -58,10 +60,10 @@ Greenhouse and Lever companies work the same way. Add entries to
 `data/greenhouse_boards.txt` or `data/lever_sites.txt` as
 `company-identifier|Display Name`. jFinder uses Greenhouse's first-published
 time and Lever's creation time for the two-day cutoff. It also discovers
-Ashby, Greenhouse, and Lever links exposed by the a16z and Sequoia boards.
-The starter watchlists contain 52 verified Greenhouse and Lever companies,
-with an emphasis on startups and growth-stage technology companies in the
-preferred locations.
+Ashby, Greenhouse, and Lever links exposed by the portfolio boards. The starter
+watchlists contain 15 additional Greenhouse and Lever companies, giving 52
+curated direct startup feeds in total, with an emphasis on smaller companies
+in the preferred locations.
 
 Location scoring prioritizes San Francisco and the Bay Area, followed by New
 York and Texas. Toronto and remote roles remain eligible. US jobs are not
