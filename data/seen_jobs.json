@@ -59,6 +59,12 @@
     "company": "Flock Safety",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Gumloop/94b10dd5-8498-4339-8b23-01bed81b2fc2/application": {
+    "first_seen": "2026-08-25T17:01:14+00:00",
+    "title": "Solutions Engineer (Pre-Sales)",
+    "company": "Gumloop",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Mintlify/ec55d98f-6e94-4ffb-9a55-4adad39297c3?utm_source=portfoliojobs.a16z.com": {
     "first_seen": "2026-08-18T16:52:28+00:00",
     "title": "Applied AI Engineer",
@@ -273,6 +279,12 @@
     "first_seen": "2026-08-19T01:57:24+00:00",
     "title": "Software Engineer (Full-Stack, AI-Native)",
     "company": "Wolfia (S22)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/y-combinator/jobs/cpEymTr-product-engineer-new-products": {
+    "first_seen": "2026-08-25T17:01:14+00:00",
+    "title": "Product Engineer, New Products",
+    "company": "Y Combinator",
     "source": "Y Combinator Jobs"
   }
 }
