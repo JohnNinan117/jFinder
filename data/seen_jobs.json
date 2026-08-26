@@ -47,6 +47,12 @@
     "company": "Dialpad",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/graphcore/jobs/8543115002": {
+    "first_seen": "2026-08-26T20:11:35+00:00",
+    "title": "Software Engineer - Triton",
+    "company": "Graphcore",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/graphcore/jobs/8632740002": {
     "first_seen": "2026-08-26T02:03:33+00:00",
     "title": "Observability, Data Scientist",
@@ -98,6 +104,18 @@
   "https://jobs.ashbyhq.com/ThinkingMachines/6afeaa7a-8674-4e32-9364-fb14cc28e79a/application": {
     "first_seen": "2026-08-26T10:02:24+00:00",
     "title": "Software Engineer, Sandboxing",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ThinkingMachines/72fe46e4-a772-4ebb-a413-53e4f1a8273e/application": {
+    "first_seen": "2026-08-26T20:11:35+00:00",
+    "title": "Software Engineer, Research Tools",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ThinkingMachines/9d863c78-80c0-44cd-a574-d1330e125398/application": {
+    "first_seen": "2026-08-26T20:11:35+00:00",
+    "title": "Software Engineer, Evaluation Platform / Infra",
     "company": "ThinkingMachines",
     "source": "Ashby"
   },
@@ -208,6 +226,12 @@
     "title": "AI Research Engineer",
     "company": "Traversal",
     "source": "Sequoia Portfolio Jobs"
+  },
+  "https://www.comeet.com/jobs/Claroty/F2.004/automation-engineer/00.17C": {
+    "first_seen": "2026-08-26T20:11:35+00:00",
+    "title": "Automation Engineer",
+    "company": "Claroty",
+    "source": "Bessemer Portfolio Jobs"
   },
   "https://www.fivetran.com/careers/job?gh_jid=7818274003": {
     "first_seen": "2026-08-18T17:48:41+00:00",
