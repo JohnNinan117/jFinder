@@ -95,6 +95,12 @@
     "company": "Sierra",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/ThinkingMachines/6afeaa7a-8674-4e32-9364-fb14cc28e79a/application": {
+    "first_seen": "2026-08-26T10:02:24+00:00",
+    "title": "Software Engineer, Sandboxing",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/cerebras/b1026ed1-1134-48cc-a8ad-780241ca7651/application": {
     "first_seen": "2026-08-18T16:52:28+00:00",
     "title": "Data Center Provisioning Engineer ",
