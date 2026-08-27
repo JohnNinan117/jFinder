@@ -89,6 +89,12 @@
     "company": "Mintlify",
     "source": "a16z Portfolio Jobs"
   },
+  "https://jobs.ashbyhq.com/Ontic/d50b6bea-876f-43fc-afb9-716efe9eca02/application": {
+    "first_seen": "2026-08-27T09:59:04+00:00",
+    "title": "Associate Software Engineer - Full Stack",
+    "company": "Ontic",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Sierra/3cdeb98c-a25c-4f3b-a704-1418556454bc/application": {
     "first_seen": "2026-08-25T15:11:30+00:00",
     "title": "Software Engineer, Agent",
@@ -140,6 +146,12 @@
   "https://jobs.ashbyhq.com/frontcareers/6f8123bc-8c6c-479a-9a6d-0935f94b42ca/application": {
     "first_seen": "2026-08-20T01:55:42+00:00",
     "title": "Software Engineer (Backend), Foundation",
+    "company": "frontcareers",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/frontcareers/de03d387-82a5-4742-8e8c-aa809ce0b58a/application": {
+    "first_seen": "2026-08-27T09:59:04+00:00",
+    "title": "Software Engineer, Foundations",
     "company": "frontcareers",
     "source": "Ashby"
   },
