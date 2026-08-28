@@ -149,6 +149,18 @@
     "company": "envoy",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16/application": {
+    "first_seen": "2026-08-28T05:29:18+00:00",
+    "title": "Software Engineer, Intern",
+    "company": "exa",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/exa/c4081592-fa8c-4fed-9041-70c62feee157/application": {
+    "first_seen": "2026-08-28T05:29:18+00:00",
+    "title": "Software Engineer, Security",
+    "company": "exa",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/frontcareers/6f8123bc-8c6c-479a-9a6d-0935f94b42ca/application": {
     "first_seen": "2026-08-20T01:55:42+00:00",
     "title": "Software Engineer (Backend), Foundation",
@@ -351,6 +363,12 @@
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Software Engineering Intern",
     "company": "TraceRoot.AI (S25)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/wedge/jobs/QUqm8YJ-software-engineering-intern": {
+    "first_seen": "2026-08-28T05:29:18+00:00",
+    "title": "Software Engineering Intern",
+    "company": "Wedge (S25)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/wolfia/jobs/jU5xZWx-software-engineer-full-stack-ai-native": {
