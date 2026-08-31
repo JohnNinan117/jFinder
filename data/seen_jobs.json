@@ -59,6 +59,12 @@
     "company": "Graphcore",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/planetscale/jobs/4389100009": {
+    "first_seen": "2026-08-31T20:11:33+00:00",
+    "title": "Software Engineer - Internal Tools",
+    "company": "PlanetScale",
+    "source": "Greenhouse"
+  },
   "https://jobs.ashbyhq.com/Crusoe/ca49cb96-50b9-4a3d-a490-2e1d88c357b3/application": {
     "first_seen": "2026-08-29T02:18:06+00:00",
     "title": "Software Engineer II, Storage",
@@ -291,6 +297,12 @@
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Fullstack Engineer",
     "company": "BoldVoice (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/centralize/jobs/4dgWq6o-software-engineer-product": {
+    "first_seen": "2026-08-31T20:11:33+00:00",
+    "title": "Software Engineer (Product)",
+    "company": "Centralize (W24)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/confido/jobs/HihnMex-software-engineer": {
