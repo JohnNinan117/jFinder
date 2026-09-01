@@ -35,6 +35,18 @@
     "company": "Cresta",
     "source": "Sequoia Portfolio Jobs"
   },
+  "https://job-boards.greenhouse.io/cssmerge/jobs/8767251002": {
+    "first_seen": "2026-09-01T05:18:43+00:00",
+    "title": "Software Engineer - Networking",
+    "company": "ATOMS Careers page",
+    "source": "Greenhouse"
+  },
+  "https://job-boards.greenhouse.io/cssmerge/jobs/8767297002": {
+    "first_seen": "2026-09-01T05:18:43+00:00",
+    "title": "Software Engineer, Customer Lifecycle",
+    "company": "ATOMS Careers page",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/dialpad/jobs/8727517002": {
     "first_seen": "2026-08-18T19:44:38+00:00",
     "title": "Forward Deployed Engineer",
@@ -45,6 +57,12 @@
     "first_seen": "2026-08-21T02:02:21+00:00",
     "title": "Forward Deployed Engineer",
     "company": "Dialpad",
+    "source": "Greenhouse"
+  },
+  "https://job-boards.greenhouse.io/everlaw/jobs/4705236006": {
+    "first_seen": "2026-09-01T05:18:43+00:00",
+    "title": "Software Engineer I",
+    "company": "Everlaw",
     "source": "Greenhouse"
   },
   "https://job-boards.greenhouse.io/graphcore/jobs/8543115002": {
@@ -105,6 +123,18 @@
     "first_seen": "2026-08-27T09:59:04+00:00",
     "title": "Associate Software Engineer - Full Stack",
     "company": "Ontic",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/Sierra/149f368c-52d5-408f-ba26-ad888f318a00/application": {
+    "first_seen": "2026-09-01T05:18:43+00:00",
+    "title": "Software Engineer, Agent (New Grad 2027)",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/Sierra/1d5cf6f0-feba-46a6-98bc-70a1627a76d0/application": {
+    "first_seen": "2026-09-01T05:18:43+00:00",
+    "title": "Software Engineer, Agent (Spanish speaking)",
+    "company": "Sierra",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/Sierra/3cdeb98c-a25c-4f3b-a704-1418556454bc/application": {
