@@ -47,6 +47,12 @@
     "company": "ATOMS Careers page",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/dashlane/jobs/8169067": {
+    "first_seen": "2026-09-02T19:52:38+00:00",
+    "title": "Software Engineer - Security Features",
+    "company": "Dashlane",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/dialpad/jobs/8727517002": {
     "first_seen": "2026-08-18T19:44:38+00:00",
     "title": "Forward Deployed Engineer",
@@ -189,6 +195,18 @@
     "first_seen": "2026-09-02T01:05:45+00:00",
     "title": "Software Engineer New Grad",
     "company": "Valon",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/applied/31140958-d768-452c-8498-0b1c7f403943/application": {
+    "first_seen": "2026-09-02T19:52:38+00:00",
+    "title": "Forward Deployed Engineer - New Grad (December 2026)",
+    "company": "applied",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application": {
+    "first_seen": "2026-09-02T19:52:38+00:00",
+    "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
+    "company": "applied",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/cerebras/b1026ed1-1134-48cc-a8ad-780241ca7651/application": {
