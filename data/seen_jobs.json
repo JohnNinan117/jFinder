@@ -5,6 +5,12 @@
     "company": "Abnormal",
     "source": "Greenhouse"
   },
+  "https://bighatbiosciences.pinpointhq.com/en/postings/3d8a0971-20d7-4226-a6cf-97ad1d1ce33b": {
+    "first_seen": "2026-09-04T01:05:00+00:00",
+    "title": "Machine Learning Engineer",
+    "company": "BigHat Biosciences",
+    "source": "a16z Portfolio Jobs"
+  },
   "https://boards.greenhouse.io/andurilindustries/jobs/5215627007?gh_jid=5215627007": {
     "first_seen": "2026-08-18T23:42:02+00:00",
     "title": "Software Engineer, Battlespace Awareness",
@@ -225,6 +231,12 @@
     "first_seen": "2026-08-19T07:10:17+00:00",
     "title": "Pre Sales Solutions Engineer",
     "company": "envoy",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/eventualcomputing/2bab624c-4e35-4b31-bd4f-4e68d648b87d/application": {
+    "first_seen": "2026-09-04T01:05:00+00:00",
+    "title": "Software Engineer, Multimodal Backend Systems",
+    "company": "eventualcomputing",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16/application": {
