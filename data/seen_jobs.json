@@ -347,6 +347,42 @@
     "company": "openai",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/revel/29968ce1-8838-44e8-ac4e-6b1c87ce5314/application": {
+    "first_seen": "2026-09-09T06:05:05+00:00",
+    "title": "Internship: Full Stack Software Engineer",
+    "company": "revel",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/revel/34f97b81-c981-4c4b-9f4d-d471c33b46cc/application": {
+    "first_seen": "2026-09-09T06:05:05+00:00",
+    "title": "Internship: Forward Deployed Engineer, Software",
+    "company": "revel",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/revel/6ca4dca8-a43e-41da-acc3-e6b4d8f9b3c1/application": {
+    "first_seen": "2026-09-09T06:05:05+00:00",
+    "title": "Internship: Forward Deployed Engineer, Test",
+    "company": "revel",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/revel/f080b27d-92c7-4e1f-a85f-b4a7c166d738/application": {
+    "first_seen": "2026-09-09T06:05:05+00:00",
+    "title": "Internship: Software Engineer, Test",
+    "company": "revel",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/revel/f8eec1fd-da28-47ce-bca4-2fbe9c48a889/application": {
+    "first_seen": "2026-09-09T06:05:05+00:00",
+    "title": "Internship: Embedded Software Engineer",
+    "company": "revel",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987/application": {
+    "first_seen": "2026-09-09T06:05:05+00:00",
+    "title": "Software Engineer Intern, Cloud Platform",
+    "company": "semgrep",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/traversal/7c37b968-0dc6-4ac3-89e3-1261883a0a96?utm_source=jobs.sequoiacap.com": {
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "AI Research Engineer",
