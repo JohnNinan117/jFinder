@@ -29,6 +29,12 @@
     "company": "SpaceX",
     "source": "Greenhouse"
   },
+  "https://hex.tech/careers/6186215004/?gh_jid=6186215004": {
+    "first_seen": "2026-09-09T11:33:33+00:00",
+    "title": "Product Engineer Intern",
+    "company": "Hex Technologies",
+    "source": "a16z Portfolio Jobs"
+  },
   "https://job-boards.greenhouse.io/anthropic/jobs/5391012008": {
     "first_seen": "2026-08-20T01:55:42+00:00",
     "title": "Pre-Sales Program Lead, Forward Deployed Engineering",
@@ -501,6 +507,12 @@
     "first_seen": "2026-09-03T16:33:00+00:00",
     "title": "Forward Deployed Engineer",
     "company": "LiteLLM (W23)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/ohm-2/jobs/Od4JrPn-forward-deployed-engineer-test-validation": {
+    "first_seen": "2026-09-09T11:33:33+00:00",
+    "title": "Forward Deployed Engineer, Test & Validation",
+    "company": "Ohm (W23)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/ohm-2/jobs/p4AdikP-forward-deployed-engineer-battery-engineering": {
