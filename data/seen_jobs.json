@@ -389,6 +389,18 @@
     "company": "revel",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2/application": {
+    "first_seen": "2026-09-10T01:10:58+00:00",
+    "title": "Software Engineer Intern (Summer 2027)",
+    "company": "saronic",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/saronic/cffe4bc2-5f34-45bf-904d-e9a6c8a8e5ce/application": {
+    "first_seen": "2026-09-10T01:10:58+00:00",
+    "title": "Forward Deployed Engineer Intern (Summer 2027)",
+    "company": "saronic",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/semgrep/8e64dc7f-e925-4361-86d5-b01ee518c987/application": {
     "first_seen": "2026-09-09T06:05:05+00:00",
     "title": "Software Engineer Intern, Cloud Platform",
