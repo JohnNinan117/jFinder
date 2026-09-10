@@ -179,6 +179,12 @@
     "company": "Sierra",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/ThinkingMachines/4d51cb65-5e5b-42d2-8c28-7073b8574e4b/application": {
+    "first_seen": "2026-09-10T06:04:24+00:00",
+    "title": "Research Software Engineer, Post Training",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/ThinkingMachines/6afeaa7a-8674-4e32-9364-fb14cc28e79a/application": {
     "first_seen": "2026-08-26T10:02:24+00:00",
     "title": "Software Engineer, Sandboxing",
@@ -418,6 +424,12 @@
     "title": "Data Engineer",
     "company": "zefr",
     "source": "Ashby"
+  },
+  "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010/apply": {
+    "first_seen": "2026-09-10T06:04:24+00:00",
+    "title": "Summer 2027 - Software Engineer Intern",
+    "company": "Shieldai",
+    "source": "Lever"
   },
   "https://jobs.lever.co/verygoodsecurity/8ea0979b-8ebd-45b6-9e88-7f1f87700d65/apply": {
     "first_seen": "2026-09-05T01:04:30+00:00",
