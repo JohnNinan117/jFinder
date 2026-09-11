@@ -233,6 +233,12 @@
     "company": "applied",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/applied/fc347a26-172c-42e9-86c9-b662d0fbe0c4/application": {
+    "first_seen": "2026-09-11T01:11:47+00:00",
+    "title": "Forward Deployed Software Engineer",
+    "company": "applied",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/cerebras/b1026ed1-1134-48cc-a8ad-780241ca7651/application": {
     "first_seen": "2026-08-18T16:52:28+00:00",
     "title": "Data Center Provisioning Engineer ",
