@@ -251,6 +251,18 @@
     "company": "applied",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application": {
+    "first_seen": "2026-09-14T19:27:42+00:00",
+    "title": "Software Engineering Intern",
+    "company": "base-power",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e/application": {
+    "first_seen": "2026-09-14T19:27:42+00:00",
+    "title": "Quantitative Developer Intern",
+    "company": "base-power",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/cerebras/b1026ed1-1134-48cc-a8ad-780241ca7651/application": {
     "first_seen": "2026-08-18T16:52:28+00:00",
     "title": "Data Center Provisioning Engineer ",
