@@ -101,6 +101,12 @@
     "company": "PlanetScale",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/venncity/jobs/4733824005": {
+    "first_seen": "2026-09-14T23:12:33+00:00",
+    "title": "Forward Deployed Engineer",
+    "company": "Venn",
+    "source": "Greenhouse"
+  },
   "https://jobs.ashbyhq.com/Commure/62841aa1-3ee5-4547-8380-637b737b2cb3/application": {
     "first_seen": "2026-09-12T01:13:16+00:00",
     "title": "Software Engineering Intern, Summer 2027",
@@ -549,6 +555,12 @@
     "first_seen": "2026-09-03T11:24:56+00:00",
     "title": "Software Engineer",
     "company": "Codes Health (S24)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/conductor-quantum/jobs/bVWYarJ-ai-systems-engineer": {
+    "first_seen": "2026-09-14T23:12:33+00:00",
+    "title": "AI Systems Engineer",
+    "company": "Conductor Quantum (S24)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/confido/jobs/HihnMex-software-engineer": {
