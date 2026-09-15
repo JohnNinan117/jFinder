@@ -329,6 +329,12 @@
     "company": "langchain",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/miter/f4567649-a0eb-445d-bd00-a0673a26ec6d/application": {
+    "first_seen": "2026-09-15T01:34:20+00:00",
+    "title": "Software Engineer (New Grad)",
+    "company": "miter",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/notion/9fc52821-c394-4a80-85ba-5f1d7c36fb2b/application": {
     "first_seen": "2026-08-25T15:11:30+00:00",
     "title": "Data Scientist, Growth",
@@ -393,6 +399,12 @@
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Software Engineer, Model Deployment- ChatGPT Engineering",
     "company": "openai",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/opengov/d036cfd6-5a01-41ed-af73-78fc32854849/application": {
+    "first_seen": "2026-09-15T01:34:20+00:00",
+    "title": "Intern, Software Engineer",
+    "company": "opengov",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc/application": {
