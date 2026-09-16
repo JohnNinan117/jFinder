@@ -77,6 +77,12 @@
     "company": "Dialpad",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4323651009": {
+    "first_seen": "2026-09-16T20:14:56+00:00",
+    "title": "Software Engineering Intern",
+    "company": "Emergent Labs ",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/everlaw/jobs/4705236006": {
     "first_seen": "2026-09-01T05:18:43+00:00",
     "title": "Software Engineer I",
@@ -435,6 +441,12 @@
     "first_seen": "2026-09-15T01:34:20+00:00",
     "title": "Intern, Software Engineer",
     "company": "opengov",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/physicalintelligence/86237337-963a-4e0e-bcf7-82d366e5f0fc/application": {
+    "first_seen": "2026-09-16T20:14:56+00:00",
+    "title": "Fullstack Software Engineer, Robot Interfaces ",
+    "company": "physicalintelligence",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc/application": {
