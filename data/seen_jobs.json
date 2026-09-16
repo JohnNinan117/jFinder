@@ -167,6 +167,12 @@
     "company": "Mintlify",
     "source": "a16z Portfolio Jobs"
   },
+  "https://jobs.ashbyhq.com/MotherDuck/2e2ea1b3-935f-425f-a608-038994ff72c9/application": {
+    "first_seen": "2026-09-16T11:47:22+00:00",
+    "title": "Software Engineer - Database",
+    "company": "MotherDuck",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Ontic/d50b6bea-876f-43fc-afb9-716efe9eca02/application": {
     "first_seen": "2026-08-27T09:59:04+00:00",
     "title": "Associate Software Engineer - Full Stack",
@@ -335,10 +341,22 @@
     "company": "langchain",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/legora/f1ed20ac-add0-47f0-a6c5-2d6cf5149117/application": {
+    "first_seen": "2026-09-16T11:47:22+00:00",
+    "title": "Software Engineer - Platform Team ",
+    "company": "legora",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/miter/f4567649-a0eb-445d-bd00-a0673a26ec6d/application": {
     "first_seen": "2026-09-15T01:34:20+00:00",
     "title": "Software Engineer (New Grad)",
     "company": "miter",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/n8n/98dc8c86-b135-4803-8044-1d6f6a631aa8/application": {
+    "first_seen": "2026-09-16T11:47:22+00:00",
+    "title": "Forward Deployed Engineer - US East Coast",
+    "company": "n8n",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/notion/9fc52821-c394-4a80-85ba-5f1d7c36fb2b/application": {
