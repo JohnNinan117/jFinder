@@ -209,6 +209,12 @@
     "company": "Sierra",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Sierra/3f6911c0-b49b-4d8e-a434-4064df2cde44/application": {
+    "first_seen": "2026-09-17T01:32:06+00:00",
+    "title": "Web Developer, Marketing Site",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Sierra/c66b30fc-9588-4699-85c1-2166b23b8778/application": {
     "first_seen": "2026-08-25T01:57:20+00:00",
     "title": "Software Engineer, Agent - Public Sector",
@@ -321,6 +327,18 @@
     "first_seen": "2026-08-28T05:29:18+00:00",
     "title": "Software Engineer, Security",
     "company": "exa",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/fieldguide/5147ad09-1d4e-4cbf-93b0-b584ff46ce74/application": {
+    "first_seen": "2026-09-17T01:32:06+00:00",
+    "title": "Software Engineer, Agents (Internal Audit)",
+    "company": "fieldguide",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/fieldguide/c7af5e2a-7522-4c8c-91f0-2c3542d42548/application": {
+    "first_seen": "2026-09-17T01:32:06+00:00",
+    "title": "Software Engineer, (Internal Audit) [All Levels]",
+    "company": "fieldguide",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/fieldguide/ec60ae0f-7638-4859-b65a-6c8446fdd7db/application": {
@@ -515,6 +533,12 @@
     "company": "Traversal",
     "source": "Sequoia Portfolio Jobs"
   },
+  "https://jobs.ashbyhq.com/viggle/98352e43-0f84-4df8-9f17-88520fe8314a/application": {
+    "first_seen": "2026-09-17T01:32:06+00:00",
+    "title": "Full-Stack Software Engineer",
+    "company": "viggle",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/zefr/b481bf4b-9149-40bf-bf0a-ea29580c5d66/application": {
     "first_seen": "2026-09-04T11:28:16+00:00",
     "title": "Data Engineer",
@@ -538,6 +562,12 @@
     "title": "Sr. Software Engineer",
     "company": "Verygoodsecurity",
     "source": "Lever"
+  },
+  "https://www.betterment.com/careers/current-openings/job?gh_jid=8201993&gh_jid=8201993": {
+    "first_seen": "2026-09-17T01:32:06+00:00",
+    "title": "Sr. Software Engineer",
+    "company": "Betterment",
+    "source": "Bessemer Portfolio Jobs"
   },
   "https://www.comeet.com/jobs/Claroty/F2.004/automation-engineer/00.17C": {
     "first_seen": "2026-08-26T20:11:35+00:00",
