@@ -653,6 +653,12 @@
     "company": "Fivetran ",
     "source": "Greenhouse"
   },
+  "https://www.ycombinator.com/companies/aviaryai/jobs/m5Dm1Qa-client-deployment-success-lead-forward-deployed-engineer": {
+    "first_seen": "2026-09-21T19:37:36+00:00",
+    "title": "Client Deployment & Success Lead (Forward Deployed Engineer)",
+    "company": "AviaryAI (S22)",
+    "source": "Y Combinator Jobs"
+  },
   "https://www.ycombinator.com/companies/aviaryai/jobs/m5Dm1Qa-forward-deployed-engineer": {
     "first_seen": "2026-09-15T21:32:34+00:00",
     "title": "Forward Deployed Engineer",
@@ -662,6 +668,12 @@
   "https://www.ycombinator.com/companies/aviator/jobs/2fmcI6d-software-engineer-fullstack": {
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Software engineer, Fullstack",
+    "company": "Aviator (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/aviator/jobs/aaMaqQu-software-engineering-intern": {
+    "first_seen": "2026-09-21T19:37:36+00:00",
+    "title": "Software Engineering Intern",
     "company": "Aviator (S21)",
     "source": "Y Combinator Jobs"
   },
