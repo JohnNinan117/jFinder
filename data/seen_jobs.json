@@ -215,6 +215,12 @@
     "company": "Ricursive Intelligence",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Rogo/04777127-53d6-49cb-9372-4332280857a1/application": {
+    "first_seen": "2026-09-22T10:05:53+00:00",
+    "title": "Software Engineer: Platform",
+    "company": "Rogo",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Sierra/149f368c-52d5-408f-ba26-ad888f318a00/application": {
     "first_seen": "2026-09-01T05:18:43+00:00",
     "title": "Software Engineer, Agent (New Grad 2027)",
@@ -269,9 +275,21 @@
     "company": "ThinkingMachines",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/ThinkingMachines/cc4f4b4e-8671-4f7b-8d3d-a2514a43f5b2/application": {
+    "first_seen": "2026-09-22T10:05:53+00:00",
+    "title": "Software Engineer, Sandboxing",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/ThinkingMachines/d328e3d3-df94-47a1-9120-d2592a796142/application": {
     "first_seen": "2026-08-27T20:36:20+00:00",
     "title": "Software Engineer, ML Infra",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ThinkingMachines/f32485ca-2de5-458f-bfae-680e124cb9f1/application": {
+    "first_seen": "2026-09-22T10:05:53+00:00",
+    "title": "Software Engineer, Developer Productivity, AI Tools",
     "company": "ThinkingMachines",
     "source": "Ashby"
   },
