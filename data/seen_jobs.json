@@ -509,6 +509,12 @@
     "company": "openai",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/opengov/c31622c1-be01-4d4a-b7cf-d116be84cc08/application": {
+    "first_seen": "2026-09-23T00:45:09+00:00",
+    "title": "Intern, Software Engineer",
+    "company": "opengov",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/opengov/d036cfd6-5a01-41ed-af73-78fc32854849/application": {
     "first_seen": "2026-09-15T01:34:20+00:00",
     "title": "Intern, Software Engineer",
@@ -777,6 +783,12 @@
     "first_seen": "2026-09-18T11:26:30+00:00",
     "title": "Forward Deployed Engineer",
     "company": "Kyber (W23)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/leadbay/jobs/5DnVXA8-forward-deployed-engineer-fra": {
+    "first_seen": "2026-09-23T00:45:09+00:00",
+    "title": "Forward Deployed Engineer - FRA",
+    "company": "Leadbay (F25)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/litellm/jobs/2gwsUNT-product-engineer": {
