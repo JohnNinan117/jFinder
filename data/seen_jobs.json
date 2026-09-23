@@ -311,6 +311,12 @@
     "company": "Valon",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/apex-technology-inc/a78c2ffd-bbaf-4884-b5a1-09631798f655/application": {
+    "first_seen": "2026-09-23T06:05:36+00:00",
+    "title": "Early Flight Software Engineer",
+    "company": "apex-technology-inc",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/applied/31140958-d768-452c-8498-0b1c7f403943/application": {
     "first_seen": "2026-09-02T19:52:38+00:00",
     "title": "Forward Deployed Engineer - New Grad (December 2026)",
@@ -629,6 +635,12 @@
     "company": "Verygoodsecurity",
     "source": "Lever"
   },
+  "https://point.com/hiring?gh_jid=8829278002": {
+    "first_seen": "2026-09-23T06:05:36+00:00",
+    "title": "Associate Software Engineer",
+    "company": "Point",
+    "source": "a16z Portfolio Jobs"
+  },
   "https://synd.io/careers/?gh_jid=6195274004": {
     "first_seen": "2026-09-17T22:16:49+00:00",
     "title": "Software Developer, Integrations (Calgary)",
@@ -640,6 +652,12 @@
     "title": "Sr. Software Engineer",
     "company": "Betterment",
     "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.cedar.com/careers/open-roles?gh_jid=8220717": {
+    "first_seen": "2026-09-23T06:05:36+00:00",
+    "title": "Software Engineer 3",
+    "company": "Cedar",
+    "source": "a16z Portfolio Jobs"
   },
   "https://www.comeet.com/jobs/Claroty/F2.004/automation-engineer/00.17C": {
     "first_seen": "2026-08-26T20:11:35+00:00",
