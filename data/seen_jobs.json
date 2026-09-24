@@ -377,6 +377,12 @@
     "company": "applied",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/applied/32f3a380-95ae-4cc2-ab8a-a1d5dcf3aa40/application": {
+    "first_seen": "2026-09-24T10:10:02+00:00",
+    "title": "Application Engineer - New Grad ",
+    "company": "applied",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/applied/a561fff8-aa38-4a5d-8b29-66c191f7328e/application": {
     "first_seen": "2026-09-02T19:52:38+00:00",
     "title": "Cybersecurity Software Engineer - New Grad (December 2027)",
@@ -503,6 +509,12 @@
     "company": "notion",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/notion/ab383335-1dd5-4d6a-971f-439cebf48a9d/application": {
+    "first_seen": "2026-09-24T10:10:02+00:00",
+    "title": "Software Engineer, Model Capabilities",
+    "company": "notion",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/notion/e9bf7ffa-9cf2-4360-a2e4-e9fa66859927/application": {
     "first_seen": "2026-09-22T05:08:12+00:00",
     "title": "Software Engineer, Data Platform (Foundations Lead)",
@@ -591,6 +603,12 @@
     "first_seen": "2026-09-17T22:16:49+00:00",
     "title": "2027 New Graduate - Software Engineer",
     "company": "radiant-industries",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74/application": {
+    "first_seen": "2026-09-24T10:10:02+00:00",
+    "title": "Software Engineer Internship, Frontend",
+    "company": "ramp",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc/application": {
@@ -766,6 +784,12 @@
     "title": "Customer Solutions Engineer II",
     "company": "Fivetran ",
     "source": "Greenhouse"
+  },
+  "https://www.linkedin.com/jobs/view/support-engineer-payments-infrastructure-at-basis-theory-4469600737": {
+    "first_seen": "2026-09-24T10:10:02+00:00",
+    "title": "Support Engineer, Payments Infrastructure",
+    "company": "Basis Theory",
+    "source": "Bessemer Portfolio Jobs"
   },
   "https://www.ycombinator.com/companies/aviaryai/jobs/m5Dm1Qa-client-deployment-success-lead-forward-deployed-engineer": {
     "first_seen": "2026-09-21T19:37:36+00:00",
