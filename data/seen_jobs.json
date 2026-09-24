@@ -143,6 +143,12 @@
     "company": "Cartesia",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Commure/259988fe-0389-461f-823c-36d81840d465/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Scribe AI",
+    "company": "Commure",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Commure/62841aa1-3ee5-4547-8380-637b737b2cb3/application": {
     "first_seen": "2026-09-12T01:13:16+00:00",
     "title": "Software Engineering Intern, Summer 2027",
@@ -245,6 +251,12 @@
     "company": "Sierra",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Sierra/33dbd62f-8212-4ea8-9b59-74370c1f2803/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Agent - Financial Services",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Sierra/3cdeb98c-a25c-4f3b-a704-1418556454bc/application": {
     "first_seen": "2026-08-25T15:11:30+00:00",
     "title": "Software Engineer, Agent",
@@ -257,9 +269,45 @@
     "company": "Sierra",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Sierra/7dae2e7c-6556-438c-bf60-509931d8188c/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Agent - Public Sector",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/Sierra/b9b9b5e0-7304-4265-aa71-d71d80d29402/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Agent - Insurance",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Sierra/c66b30fc-9588-4699-85c1-2166b23b8778/application": {
     "first_seen": "2026-08-25T01:57:20+00:00",
     "title": "Software Engineer, Agent - Public Sector",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/Sierra/c729c633-0376-436e-8f2b-1501088b85b0/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Agent - Retail",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/Sierra/d2dc9baf-30d4-4708-9227-62a946b4b37e/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Agent - Travel & Hospitality",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/Sierra/f3308520-6d7d-45ac-b96d-3f5a5012e6c9/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Agent - Healthcare",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/Sierra/fd5df98a-e2c8-4d47-a803-daee5cccb36f/application": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Software Engineer, Agent - Tech, Media & Telecom",
     "company": "Sierra",
     "source": "Ashby"
   },
@@ -656,6 +704,12 @@
   "https://www.betterment.com/careers/current-openings/job?gh_jid=8201993&gh_jid=8201993": {
     "first_seen": "2026-09-17T01:32:06+00:00",
     "title": "Sr. Software Engineer",
+    "company": "Betterment",
+    "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.betterment.com/careers/current-openings/job?gh_jid=8212276&gh_jid=8212276": {
+    "first_seen": "2026-09-24T05:01:55+00:00",
+    "title": "Sr. Software Engineer \u2013 API & Auth Platform",
     "company": "Betterment",
     "source": "Bessemer Portfolio Jobs"
   },
