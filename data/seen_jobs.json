@@ -455,6 +455,12 @@
     "company": "exa",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/fal-ai/ae1ab033-5e45-46da-9f20-55ac350eb0e9/application": {
+    "first_seen": "2026-09-29T05:52:00+00:00",
+    "title": "Machine Learning Engineer, Safety",
+    "company": "fal-ai",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/fieldguide/5147ad09-1d4e-4cbf-93b0-b584ff46ce74/application": {
     "first_seen": "2026-09-17T01:32:06+00:00",
     "title": "Software Engineer, Agents (Internal Audit)",
@@ -489,6 +495,12 @@
     "first_seen": "2026-08-27T09:59:04+00:00",
     "title": "Software Engineer, Foundations",
     "company": "frontcareers",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/halter/e1fe638b-8fde-4071-86e6-6b47f5747f61/application": {
+    "first_seen": "2026-09-29T05:52:00+00:00",
+    "title": "Intermediate Software Engineer - Field Operations",
+    "company": "halter",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/kong/a9162a3b-d834-4ca2-b2ac-9a140b9b5436/application": {
