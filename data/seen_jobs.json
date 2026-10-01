@@ -143,6 +143,18 @@
     "company": "PlanetScale",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/reddit/jobs/8243443": {
+    "first_seen": "2026-10-01T20:24:21+00:00",
+    "title": "Software Engineer",
+    "company": "Reddit",
+    "source": "Greenhouse"
+  },
+  "https://job-boards.greenhouse.io/reddit/jobs/8244082": {
+    "first_seen": "2026-10-01T20:24:21+00:00",
+    "title": "Machine Learning Engineer",
+    "company": "Reddit",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/venncity/jobs/4733824005": {
     "first_seen": "2026-09-14T23:12:33+00:00",
     "title": "Forward Deployed Engineer",
@@ -431,6 +443,12 @@
     "company": "cerebras",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/clickhouse/2344ae13-045c-4513-ad01-94189029c46e/application": {
+    "first_seen": "2026-10-01T20:24:21+00:00",
+    "title": "Langfuse - Product Engineer, Integrations",
+    "company": "clickhouse",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/ema/a3e07250-51f9-4518-ad2e-19d7825f5234/application": {
     "first_seen": "2026-10-01T14:35:47+00:00",
     "title": "Software Engineer, Full-Stack ",
@@ -566,6 +584,12 @@
   "https://jobs.ashbyhq.com/notion/ab383335-1dd5-4d6a-971f-439cebf48a9d/application": {
     "first_seen": "2026-09-24T10:10:02+00:00",
     "title": "Software Engineer, Model Capabilities",
+    "company": "notion",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/notion/d82a0b31-59b8-4699-ae8d-6fb3fe47518c/application": {
+    "first_seen": "2026-10-01T20:24:21+00:00",
+    "title": "Software Engineer, Mobile Core (Android)",
     "company": "notion",
     "source": "Ashby"
   },
@@ -824,6 +848,12 @@
   "https://www.comeet.com/jobs/Claroty/F2.004/backend-software-engineer/55.278": {
     "first_seen": "2026-09-07T23:34:53+00:00",
     "title": "Backend Software Engineer",
+    "company": "Claroty",
+    "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.comeet.com/jobs/Claroty/F2.004/software-engineer---student-position/C2.27A": {
+    "first_seen": "2026-10-01T20:24:21+00:00",
+    "title": "Software Engineer - Student Position",
     "company": "Claroty",
     "source": "Bessemer Portfolio Jobs"
   },
