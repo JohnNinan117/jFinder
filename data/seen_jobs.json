@@ -431,6 +431,12 @@
     "company": "cerebras",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/ema/a3e07250-51f9-4518-ad2e-19d7825f5234/application": {
+    "first_seen": "2026-10-01T14:35:47+00:00",
+    "title": "Software Engineer, Full-Stack ",
+    "company": "ema",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/ema/ab094389-25ec-417b-b646-06969d166d06/application": {
     "first_seen": "2026-08-18T20:44:37+00:00",
     "title": "AI Application Engineer (Contractor role)",
@@ -542,6 +548,12 @@
   "https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7/application": {
     "first_seen": "2026-09-24T22:33:33+00:00",
     "title": "Software Engineer Intern, Mobile (Winter 2027)",
+    "company": "notion",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/notion/95800771-37a4-4226-b03f-d4fc6ea88f65/application": {
+    "first_seen": "2026-10-01T14:35:47+00:00",
+    "title": "Software Engineer, Mobile Platform (iOS)",
     "company": "notion",
     "source": "Ashby"
   },
