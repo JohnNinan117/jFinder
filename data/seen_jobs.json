@@ -365,6 +365,12 @@
     "company": "ThinkingMachines",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/ThinkingMachines/998becdd-611f-44e5-a36d-bbfc13328ed9/application": {
+    "first_seen": "2026-10-02T13:56:47+00:00",
+    "title": "Software Engineer, Infrastructure",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/ThinkingMachines/9d863c78-80c0-44cd-a574-d1330e125398/application": {
     "first_seen": "2026-08-26T20:11:35+00:00",
     "title": "Software Engineer, Evaluation Platform / Infra",
@@ -380,6 +386,18 @@
   "https://jobs.ashbyhq.com/ThinkingMachines/d328e3d3-df94-47a1-9120-d2592a796142/application": {
     "first_seen": "2026-08-27T20:36:20+00:00",
     "title": "Software Engineer, ML Infra",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ThinkingMachines/d7513f3d-6a49-485d-b3c7-ecb629ad48db/application": {
+    "first_seen": "2026-10-02T13:56:47+00:00",
+    "title": "Software Engineer, Inference",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ThinkingMachines/ec5f88b6-e221-499c-bc8f-a27b66213b87/application": {
+    "first_seen": "2026-10-02T13:56:47+00:00",
+    "title": "Software Engineer, Data Infrastructure",
     "company": "ThinkingMachines",
     "source": "Ashby"
   },
