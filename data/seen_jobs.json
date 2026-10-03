@@ -161,6 +161,18 @@
     "company": "Venn",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/xai/jobs/5252108007": {
+    "first_seen": "2026-10-03T05:26:52+00:00",
+    "title": "Spring 2027 Software Engineering Internship/Co-op",
+    "company": "SpaceXAI",
+    "source": "Greenhouse"
+  },
+  "https://job-boards.greenhouse.io/xai/jobs/5255111007": {
+    "first_seen": "2026-10-03T05:26:52+00:00",
+    "title": "Summer 2027 Software Engineering Internship/Co-op",
+    "company": "SpaceXAI",
+    "source": "Greenhouse"
+  },
   "https://jobs.ashbyhq.com/Browserbase/689df609-4658-4769-bc2c-5962516237bb/application": {
     "first_seen": "2026-09-23T11:48:49+00:00",
     "title": "Software Engineer (Dashboard) - New York",
@@ -513,6 +525,12 @@
     "first_seen": "2026-09-29T05:52:00+00:00",
     "title": "Machine Learning Engineer, Safety",
     "company": "fal-ai",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/fellowai/f932dda0-8ad0-45d6-a327-d2143b7d82aa/application": {
+    "first_seen": "2026-10-03T05:26:52+00:00",
+    "title": "Software Engineer - New Grad (2026-2027)",
+    "company": "fellowai",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/fieldguide/5147ad09-1d4e-4cbf-93b0-b584ff46ce74/application": {
