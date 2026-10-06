@@ -71,6 +71,12 @@
     "company": "ATOMS Careers page",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/cssmerge/jobs/8869106002": {
+    "first_seen": "2026-10-06T00:52:45+00:00",
+    "title": "Machine Learning Engineer Intern",
+    "company": "ATOMS Careers page",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/dashlane/jobs/8169067": {
     "first_seen": "2026-09-02T19:52:38+00:00",
     "title": "Software Engineer - Security Features",
@@ -1065,6 +1071,12 @@
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Software Engineer",
     "company": "Confido (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/cozmo-ai/jobs/yZj5zoB-forward-deployed-engineer": {
+    "first_seen": "2026-10-06T00:52:45+00:00",
+    "title": "Forward Deployed Engineer",
+    "company": "Cozmo AI (W22)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/draftwise/jobs/0kxugND-forward-deployed-ai-engineer-backend-west-palm-beach": {
