@@ -473,6 +473,12 @@
     "company": "applied",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/aurora-operations-inc/b755dc84-3600-4a44-ae04-0f366883d553/application": {
+    "first_seen": "2026-10-07T07:19:28+00:00",
+    "title": "Software Engineer, Performance Engineering Optimization",
+    "company": "aurora-operations-inc",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application": {
     "first_seen": "2026-09-14T19:27:42+00:00",
     "title": "Software Engineering Intern",
@@ -854,6 +860,12 @@
   "https://jobs.ashbyhq.com/saronic/cffe4bc2-5f34-45bf-904d-e9a6c8a8e5ce/application": {
     "first_seen": "2026-09-10T01:10:58+00:00",
     "title": "Forward Deployed Engineer Intern (Summer 2027)",
+    "company": "saronic",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/saronic/f33184f4-52ef-4b75-b644-2a7d6d525118/application": {
+    "first_seen": "2026-10-07T07:19:28+00:00",
+    "title": "Software Engineer - Forward Deployed",
     "company": "saronic",
     "source": "Ashby"
   },
