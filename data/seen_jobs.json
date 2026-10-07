@@ -329,6 +329,12 @@
     "company": "Sierra",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Sierra/9d59c96e-e7f7-43cc-8069-bcdf3798fe2b/application": {
+    "first_seen": "2026-10-07T21:22:47+00:00",
+    "title": "Software Engineer, Agent (Spanish speaking)",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Sierra/b8666a78-fcb1-47bb-ad07-5edb6cd3ad71/application": {
     "first_seen": "2026-10-06T15:18:06+00:00",
     "title": "Software Engineer, Inference",
@@ -873,6 +879,12 @@
     "first_seen": "2026-09-09T06:05:05+00:00",
     "title": "Software Engineer Intern, Cloud Platform",
     "company": "semgrep",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/stradahq/d277be89-9d67-48cd-9e67-3b17bbab709e/application": {
+    "first_seen": "2026-10-07T21:22:47+00:00",
+    "title": "Software Engineer (Intern)",
+    "company": "stradahq",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/temporal/81cc8698-59f8-418a-85fd-1fc154b33ee4/application": {
