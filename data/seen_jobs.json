@@ -503,6 +503,12 @@
     "company": "cerebras",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/chalk/927c74a5-1b40-490d-b3be-a29baec4db6f/application": {
+    "first_seen": "2026-10-08T02:03:27+00:00",
+    "title": "Software Engineer - New Grad",
+    "company": "chalk",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/clickhouse/2344ae13-045c-4513-ad01-94189029c46e/application": {
     "first_seen": "2026-10-01T20:24:21+00:00",
     "title": "Langfuse - Product Engineer, Integrations",
@@ -881,6 +887,12 @@
     "company": "semgrep",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/spruceid/3d182b7f-482e-45b2-8668-f04f0b5fda8e/application": {
+    "first_seen": "2026-10-08T02:03:27+00:00",
+    "title": "Full-Stack Software Engineer (New Grad) \u2013 Remote",
+    "company": "spruceid",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/stradahq/d277be89-9d67-48cd-9e67-3b17bbab709e/application": {
     "first_seen": "2026-10-07T21:22:47+00:00",
     "title": "Software Engineer (Intern)",
@@ -968,6 +980,12 @@
   "https://www.cedar.com/careers/open-roles?gh_jid=8220717": {
     "first_seen": "2026-09-23T06:05:36+00:00",
     "title": "Software Engineer 3",
+    "company": "Cedar",
+    "source": "a16z Portfolio Jobs"
+  },
+  "https://www.cedar.com/careers/open-roles?gh_jid=8257566": {
+    "first_seen": "2026-10-08T02:03:27+00:00",
+    "title": "Sr. Software Engineer (Data & Integrations Engineering)",
     "company": "Cedar",
     "source": "a16z Portfolio Jobs"
   },
