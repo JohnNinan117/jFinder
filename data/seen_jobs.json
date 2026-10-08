@@ -161,6 +161,12 @@
     "company": "Reddit",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/reddit/jobs/8263406": {
+    "first_seen": "2026-10-08T09:07:54+00:00",
+    "title": "Android Software Engineer, Consumer Engineering",
+    "company": "Reddit",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/venncity/jobs/4733824005": {
     "first_seen": "2026-09-14T23:12:33+00:00",
     "title": "Forward Deployed Engineer",
@@ -671,6 +677,18 @@
     "company": "legora",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/maintainx/de4150ef-f687-4568-993a-433b5c30fd2e/application": {
+    "first_seen": "2026-10-08T09:07:54+00:00",
+    "title": "D\u00e9veloppeur(se) Full Stack - Core",
+    "company": "maintainx",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/maintainx/eb620210-460b-4bb7-af34-200dd4cfee40/application": {
+    "first_seen": "2026-10-08T09:07:54+00:00",
+    "title": "D\u00e9veloppeur(se) Full Stack \u2013 Plateforme et infrastructure",
+    "company": "maintainx",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/miter/f4567649-a0eb-445d-bd00-a0673a26ec6d/application": {
     "first_seen": "2026-09-15T01:34:20+00:00",
     "title": "Software Engineer (New Grad)",
@@ -992,6 +1010,12 @@
   "https://www.comeet.com/jobs/Claroty/F2.004/automation-engineer/00.17C": {
     "first_seen": "2026-08-26T20:11:35+00:00",
     "title": "Automation Engineer",
+    "company": "Claroty",
+    "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.comeet.com/jobs/Claroty/F2.004/backend-software-engineer/0A.374": {
+    "first_seen": "2026-10-08T09:07:54+00:00",
+    "title": "Backend Software Engineer",
     "company": "Claroty",
     "source": "Bessemer Portfolio Jobs"
   },
