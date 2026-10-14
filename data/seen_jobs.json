@@ -293,6 +293,12 @@
     "company": "Ontic",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Recall/2bd4132f-9971-4eb2-98dd-4b1a5b538338/application": {
+    "first_seen": "2026-10-14T07:46:18+00:00",
+    "title": "Product Engineer",
+    "company": "Recall",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Ricursive%20Intelligence/04ac7788-367b-474c-ac04-516d70af9d6a/application": {
     "first_seen": "2026-09-04T06:01:37+00:00",
     "title": "Software Engineer, Chip Design",
@@ -1076,6 +1082,12 @@
   "https://www.comeet.com/jobs/drivenets/72.006/software-engineer---bsp--firmware/4D.272": {
     "first_seen": "2026-09-17T22:16:49+00:00",
     "title": "Software Engineer - BSP & Firmware",
+    "company": "DRIVENETS",
+    "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.comeet.com/jobs/drivenets/72.006/software-engineer---data-path/2C.37B": {
+    "first_seen": "2026-10-14T07:46:18+00:00",
+    "title": "Software Engineer - Data Path",
     "company": "DRIVENETS",
     "source": "Bessemer Portfolio Jobs"
   },
