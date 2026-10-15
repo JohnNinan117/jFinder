@@ -509,6 +509,12 @@
     "company": "aurora-operations-inc",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/base-power/0ccc74f5-3330-4379-9faa-6ca1b39d4593/application": {
+    "first_seen": "2026-10-15T01:34:20+00:00",
+    "title": "Software Engineer, Algorithms & Infrastructure",
+    "company": "base-power",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application": {
     "first_seen": "2026-09-14T19:27:42+00:00",
     "title": "Software Engineering Intern",
@@ -627,6 +633,12 @@
     "first_seen": "2026-09-29T05:52:00+00:00",
     "title": "Machine Learning Engineer, Safety",
     "company": "fal-ai",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/fellowai/0e5b1c6c-7334-4295-9a05-a60333dcce78/application": {
+    "first_seen": "2026-10-15T01:34:20+00:00",
+    "title": "Software Engineer ",
+    "company": "fellowai",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/fellowai/f932dda0-8ad0-45d6-a327-d2143b7d82aa/application": {
