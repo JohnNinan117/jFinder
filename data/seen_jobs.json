@@ -449,6 +449,12 @@
     "company": "Sierra",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Sierra/cfecdf07-ee22-45a0-b472-5de10f167984/application": {
+    "first_seen": "2026-10-21T18:45:09+00:00",
+    "title": "Associate Sales Engineer",
+    "company": "Sierra",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Sierra/d2dc9baf-30d4-4708-9227-62a946b4b37e/application": {
     "first_seen": "2026-09-24T05:01:55+00:00",
     "title": "Software Engineer, Agent - Travel & Hospitality",
@@ -1497,6 +1503,12 @@
     "first_seen": "2026-08-19T01:57:24+00:00",
     "title": "Backend Engineer (Go)",
     "company": "Porter (S20)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/reflex/jobs/JtSDIe3-forward-deployed-engineer": {
+    "first_seen": "2026-10-21T18:45:09+00:00",
+    "title": "Forward Deployed Engineer",
+    "company": "Reflex (W23)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/replo/jobs/YcMC1B8-software-engineer-full-stack": {
