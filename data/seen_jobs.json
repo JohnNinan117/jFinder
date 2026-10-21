@@ -755,6 +755,12 @@
     "company": "fieldguide",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/foxglove/6c8047fb-a6dc-4f47-8e6f-1addd1d519e0/application": {
+    "first_seen": "2026-10-21T07:47:43+00:00",
+    "title": "Backend Engineer, Forward Deployed",
+    "company": "foxglove",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/frontcareers/6f8123bc-8c6c-479a-9a6d-0935f94b42ca/application": {
     "first_seen": "2026-08-20T01:55:42+00:00",
     "title": "Software Engineer (Backend), Foundation",
@@ -1419,6 +1425,12 @@
     "first_seen": "2026-09-23T00:45:09+00:00",
     "title": "Forward Deployed Engineer - FRA",
     "company": "Leadbay (F25)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/legion-health/jobs/1PA2w4w-software-engineer-patient-products-backed-by-y-combinator-5m-arr-23m-raised": {
+    "first_seen": "2026-10-21T07:47:43+00:00",
+    "title": "Software Engineer \u2014 Patient Products (backed by Y Combinator, $5M+ ARR, $23M+ raised)",
+    "company": "Legion Health (S21)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/litellm/jobs/2gwsUNT-product-engineer": {
