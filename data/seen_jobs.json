@@ -281,6 +281,12 @@
     "company": "Commure",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5/application": {
+    "first_seen": "2026-10-22T13:54:31+00:00",
+    "title": "Software Engineering Intern, Summer 2027",
+    "company": "Crusoe",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Crusoe/9a5223c4-9eb7-4fdb-b97c-f43525df35ed/application": {
     "first_seen": "2026-09-17T07:47:56+00:00",
     "title": "Software Engineer I, Network",
@@ -975,6 +981,12 @@
     "first_seen": "2026-09-16T20:14:56+00:00",
     "title": "Fullstack Software Engineer, Robot Interfaces ",
     "company": "physicalintelligence",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/pinecone/edf2a2a5-64e2-45b8-9f2e-4f354af350b8/application": {
+    "first_seen": "2026-10-22T13:54:31+00:00",
+    "title": "Applied AI Engineer (Full-Stack)",
+    "company": "pinecone",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/prefect/515cc394-1a2e-492d-a80d-f569185501f5/application": {
