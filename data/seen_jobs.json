@@ -227,6 +227,12 @@
     "company": "Reddit",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/starburst/jobs/5455394008": {
+    "first_seen": "2026-10-22T01:37:29+00:00",
+    "title": "Customer Support Engineer",
+    "company": "Starburst",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/venncity/jobs/4733824005": {
     "first_seen": "2026-09-14T23:12:33+00:00",
     "title": "Forward Deployed Engineer",
@@ -1181,6 +1187,12 @@
     "company": "Syndio",
     "source": "Bessemer Portfolio Jobs"
   },
+  "https://synd.io/careers/?gh_jid=6231512004": {
+    "first_seen": "2026-10-22T01:37:29+00:00",
+    "title": "Software Engineer, Integrations (US + Calgary)",
+    "company": "Syndio",
+    "source": "Bessemer Portfolio Jobs"
+  },
   "https://www.betterment.com/careers/current-openings/job?gh_jid=8201993&gh_jid=8201993": {
     "first_seen": "2026-09-17T01:32:06+00:00",
     "title": "Sr. Software Engineer",
@@ -1234,6 +1246,12 @@
     "title": "Software Engineer - Student Position",
     "company": "Claroty",
     "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.comeet.com/jobs/covenantindustries/3B.00F/manufacturing-systems-engineer/A4.470": {
+    "first_seen": "2026-10-22T01:37:29+00:00",
+    "title": "Manufacturing Systems Engineer",
+    "company": "Covenant",
+    "source": "a16z Portfolio Jobs"
   },
   "https://www.comeet.com/jobs/drivenets/72.006/ate-software-engineer/95.271": {
     "first_seen": "2026-09-08T18:47:32+00:00",
