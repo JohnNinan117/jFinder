@@ -233,6 +233,12 @@
     "company": "Reddit",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/reddit/jobs/8319655": {
+    "first_seen": "2026-10-24T16:42:02+00:00",
+    "title": "Software Engineer, Ad Signals",
+    "company": "Reddit",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/starburst/jobs/5455394008": {
     "first_seen": "2026-10-22T01:37:29+00:00",
     "title": "Customer Support Engineer",
@@ -1461,6 +1467,12 @@
     "first_seen": "2026-10-14T22:23:09+00:00",
     "title": "Full-Stack Software Developer 2",
     "company": "Finni Health (W23)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/forge/jobs/fCpu2RO-software-engineer": {
+    "first_seen": "2026-10-24T16:42:02+00:00",
+    "title": "Software Engineer",
+    "company": "Forge (W24)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer": {
