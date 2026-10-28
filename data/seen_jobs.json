@@ -47,6 +47,12 @@
     "company": "Hex Technologies",
     "source": "a16z Portfolio Jobs"
   },
+  "https://in.linkedin.com/jobs/view/software-developer-at-vetic-4483607472": {
+    "first_seen": "2026-10-28T05:54:07+00:00",
+    "title": "Software Developer",
+    "company": "Vetic",
+    "source": "Bessemer Portfolio Jobs"
+  },
   "https://job-boards.greenhouse.io/anthropic/jobs/5391012008": {
     "first_seen": "2026-08-20T01:55:42+00:00",
     "title": "Pre-Sales Program Lead, Forward Deployed Engineering",
@@ -521,6 +527,12 @@
     "company": "ThinkingMachines",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/ThinkingMachines/7c8b01f8-8542-4cb4-9701-5578960cda3b/application": {
+    "first_seen": "2026-10-28T05:54:07+00:00",
+    "title": "Software Engineer, Security",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/ThinkingMachines/998becdd-611f-44e5-a36d-bbfc13328ed9/application": {
     "first_seen": "2026-10-02T13:56:47+00:00",
     "title": "Software Engineer, Infrastructure",
@@ -542,6 +554,12 @@
   "https://jobs.ashbyhq.com/ThinkingMachines/d328e3d3-df94-47a1-9120-d2592a796142/application": {
     "first_seen": "2026-08-27T20:36:20+00:00",
     "title": "Software Engineer, ML Infra",
+    "company": "ThinkingMachines",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ThinkingMachines/d6098644-7904-4423-9330-a1b7f5767fbc/application": {
+    "first_seen": "2026-10-28T05:54:07+00:00",
+    "title": "Software Engineer, Privacy & Data Governance",
     "company": "ThinkingMachines",
     "source": "Ashby"
   },
@@ -830,6 +848,12 @@
   "https://jobs.ashbyhq.com/hercules/60692811-0d51-4049-b540-f886a3dcc203/application": {
     "first_seen": "2026-10-05T02:08:00+00:00",
     "title": "Technical Customer Support Engineer, North America",
+    "company": "hercules",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/hercules/79c71c6e-dbc1-4c99-9d86-55fe95ae3778/application": {
+    "first_seen": "2026-10-28T05:54:07+00:00",
+    "title": "Technical Customer Support Engineer, North America (Weekend Coverage)",
     "company": "hercules",
     "source": "Ashby"
   },
@@ -1143,6 +1167,12 @@
     "first_seen": "2026-10-07T21:22:47+00:00",
     "title": "Software Engineer (Intern)",
     "company": "stradahq",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/stream/82b37457-3d54-4f7a-8a0e-ae52c0b67362/application": {
+    "first_seen": "2026-10-28T05:54:07+00:00",
+    "title": "Backend Engineer \u2013 Real-Time Video ",
+    "company": "stream",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/supabase/73ddf93b-fe0c-455d-ba27-cdde0d3fb94f/application": {
