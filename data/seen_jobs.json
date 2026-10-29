@@ -767,6 +767,12 @@
     "company": "eventualcomputing",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/exa/a755737f-2181-45aa-8f33-f828dd0b0592/application": {
+    "first_seen": "2026-10-29T23:22:39+00:00",
+    "title": "Software Engineer, Web Crawling",
+    "company": "exa",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16/application": {
     "first_seen": "2026-08-28T05:29:18+00:00",
     "title": "Software Engineer, Intern",
@@ -1148,6 +1154,12 @@
   "https://jobs.ashbyhq.com/saronic/846faa91-763f-4c16-aec5-2cd48830d3ff/application": {
     "first_seen": "2026-10-16T13:21:47+00:00",
     "title": "Systems Engineer I",
+    "company": "saronic",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/saronic/96c1f534-bd49-481c-88c5-85d344b20c82/application": {
+    "first_seen": "2026-10-29T23:22:39+00:00",
+    "title": "Forward Deployed Build Engineer",
     "company": "saronic",
     "source": "Ashby"
   },
