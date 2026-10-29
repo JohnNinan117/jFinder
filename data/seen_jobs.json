@@ -53,6 +53,12 @@
     "company": "Vetic",
     "source": "Bessemer Portfolio Jobs"
   },
+  "https://in.linkedin.com/jobs/view/software-developer-at-vetic-4484927923": {
+    "first_seen": "2026-10-29T19:02:38+00:00",
+    "title": "Software Developer",
+    "company": "Vetic",
+    "source": "Bessemer Portfolio Jobs"
+  },
   "https://job-boards.greenhouse.io/anthropic/jobs/5391012008": {
     "first_seen": "2026-08-20T01:55:42+00:00",
     "title": "Pre-Sales Program Lead, Forward Deployed Engineering",
@@ -917,6 +923,12 @@
     "company": "notion",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/notion/30a5c739-185f-4a55-8a63-85974d687444/application": {
+    "first_seen": "2026-10-29T19:02:38+00:00",
+    "title": "Business Systems Engineer",
+    "company": "notion",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/notion/95800771-37a4-4226-b03f-d4fc6ea88f65/application": {
     "first_seen": "2026-10-01T14:35:47+00:00",
     "title": "Software Engineer, Mobile Platform (iOS)",
@@ -1403,6 +1415,12 @@
     "company": "Basis Theory",
     "source": "Bessemer Portfolio Jobs"
   },
+  "https://www.qventus.com/company/working-qventus/job?gh_jid=4472326009": {
+    "first_seen": "2026-10-29T19:02:38+00:00",
+    "title": "Sr. Software Engineer - PAT Assist",
+    "company": "Qventus",
+    "source": "Bessemer Portfolio Jobs"
+  },
   "https://www.ycombinator.com/companies/algouniversity/jobs/0qv2GAG-software-engineer-fullstack-ai-work-from-office": {
     "first_seen": "2026-09-27T08:19:39+00:00",
     "title": "Software Engineer (Fullstack/AI) - Work from Office",
@@ -1671,6 +1689,12 @@
     "first_seen": "2026-08-28T05:29:18+00:00",
     "title": "Software Engineering Intern",
     "company": "Wedge (S25)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/windmill/jobs/aXpL7BC-product-software-engineer": {
+    "first_seen": "2026-10-29T19:02:38+00:00",
+    "title": "Product Software Engineer",
+    "company": "Windmill (S22)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/wolfia/jobs/jU5xZWx-software-engineer-full-stack-ai-native": {
