@@ -401,6 +401,12 @@
     "company": "Mintlify",
     "source": "a16z Portfolio Jobs"
   },
+  "https://jobs.ashbyhq.com/MotherDuck/111fd8f5-a8ad-4aa4-937f-79da7c2184db/application": {
+    "first_seen": "2026-10-30T23:02:36+00:00",
+    "title": "Software Engineer - Database",
+    "company": "MotherDuck",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/MotherDuck/2e2ea1b3-935f-425f-a608-038994ff72c9/application": {
     "first_seen": "2026-09-16T11:47:22+00:00",
     "title": "Software Engineer - Database",
@@ -849,6 +855,12 @@
     "first_seen": "2026-10-21T07:47:43+00:00",
     "title": "Backend Engineer, Forward Deployed",
     "company": "foxglove",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/freed/161d4300-0a97-4263-8aa5-c23a1dd3b92c/application": {
+    "first_seen": "2026-10-30T23:02:36+00:00",
+    "title": "ML Engineer",
+    "company": "freed",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/frontcareers/6f8123bc-8c6c-479a-9a6d-0935f94b42ca/application": {
