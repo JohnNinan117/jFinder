@@ -899,6 +899,12 @@
     "company": "halter",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/happyrobot.ai/0dc9d9e3-163c-45a9-8e25-00fa860d3c2a/application": {
+    "first_seen": "2026-11-03T21:09:50+00:00",
+    "title": "Forward Deployed Engineer - German Speaking",
+    "company": "happyrobot.ai",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/hercules/3187fa14-42b7-4bf5-b0a0-de6c85d6482b/application": {
     "first_seen": "2026-10-31T02:30:38+00:00",
     "title": "Technical Customer Support Engineer, North America (Weekend Coverage)",
@@ -1342,6 +1348,12 @@
     "title": "Associate Software Engineer",
     "company": "Point",
     "source": "a16z Portfolio Jobs"
+  },
+  "https://pydantic.dev/jobs/pre-sales-solutions-engineer": {
+    "first_seen": "2026-11-03T21:09:50+00:00",
+    "title": "Pre-Sales Solutions Engineer",
+    "company": "Pydantic",
+    "source": "Sequoia Portfolio Jobs"
   },
   "https://synd.io/careers/?gh_jid=6195274004": {
     "first_seen": "2026-09-17T22:16:49+00:00",
