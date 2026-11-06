@@ -305,6 +305,12 @@
     "company": "Browserbase",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/C1/eea62edd-8bf4-4a05-97d1-79bf7e012aeb/application": {
+    "first_seen": "2026-11-06T02:33:49+00:00",
+    "title": "Software Engineer",
+    "company": "C1",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Cartesia/154b001a-f818-4798-a802-58057c47cb03/application": {
     "first_seen": "2026-09-18T19:43:13+00:00",
     "title": "Software Engineer, Product",
@@ -1346,6 +1352,12 @@
   "https://jobs.lever.co/shieldai/a3eae89e-5a2b-4e6a-8e9c-e315923b0c71/apply": {
     "first_seen": "2026-10-18T06:01:39+00:00",
     "title": "Data Engineer, Finance (R6329)",
+    "company": "Shieldai",
+    "source": "Lever"
+  },
+  "https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949/apply": {
+    "first_seen": "2026-11-06T02:33:49+00:00",
+    "title": "June 2027 Co-Op - Software Engineer Intern",
     "company": "Shieldai",
     "source": "Lever"
   },
