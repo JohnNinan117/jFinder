@@ -995,6 +995,12 @@
     "company": "n8n",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947/application": {
+    "first_seen": "2026-11-07T02:56:46+00:00",
+    "title": "Software Engineering Intern, iOS (Summer 2027)",
+    "company": "notion",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7/application": {
     "first_seen": "2026-09-24T22:33:33+00:00",
     "title": "Software Engineer Intern, Mobile (Winter 2027)",
@@ -1004,6 +1010,12 @@
   "https://jobs.ashbyhq.com/notion/30a5c739-185f-4a55-8a63-85974d687444/application": {
     "first_seen": "2026-10-29T19:02:38+00:00",
     "title": "Business Systems Engineer",
+    "company": "notion",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413/application": {
+    "first_seen": "2026-11-07T02:56:46+00:00",
+    "title": "Software Engineering Intern, Frontend (Summer 2027)",
     "company": "notion",
     "source": "Ashby"
   },
@@ -1400,6 +1412,12 @@
   "https://www.betterment.com/careers/current-openings/job?gh_jid=8212276&gh_jid=8212276": {
     "first_seen": "2026-09-24T05:01:55+00:00",
     "title": "Sr. Software Engineer \u2013 API & Auth Platform",
+    "company": "Betterment",
+    "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.betterment.com/careers/current-openings/job?gh_jid=8353019&gh_jid=8353019": {
+    "first_seen": "2026-11-07T02:56:46+00:00",
+    "title": "Sr. Software Engineer, Product Engineering",
     "company": "Betterment",
     "source": "Bessemer Portfolio Jobs"
   },
