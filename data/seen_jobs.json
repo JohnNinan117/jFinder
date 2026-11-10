@@ -317,6 +317,12 @@
     "company": "Cartesia",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/Coframe/e58e6bae-73bb-47e1-ba80-c0a3f51c048b/application": {
+    "first_seen": "2026-11-10T02:15:33+00:00",
+    "title": "Machine Learning Engineer",
+    "company": "Coframe",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Commure/259988fe-0389-461f-823c-36d81840d465/application": {
     "first_seen": "2026-09-24T05:01:55+00:00",
     "title": "Software Engineer, Scribe AI",
@@ -1007,6 +1013,12 @@
     "company": "n8n",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/notion/06c2599d-4dd5-4f97-843f-7194b546f042/application": {
+    "first_seen": "2026-11-10T02:15:33+00:00",
+    "title": "Software Engineer, Web Infrastructure",
+    "company": "notion",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947/application": {
     "first_seen": "2026-11-07T02:56:46+00:00",
     "title": "Software Engineering Intern, iOS (Summer 2027)",
@@ -1167,6 +1179,12 @@
     "first_seen": "2026-09-30T20:52:46+00:00",
     "title": "Developer Success Engineer",
     "company": "prefect",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/pylon/ec7069c3-be77-4885-aed3-aa64f8f71f39/application": {
+    "first_seen": "2026-11-10T02:15:33+00:00",
+    "title": "Generalist Software Engineer(s)",
+    "company": "Pylon",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/quora/5494e6a1-a973-46af-b9f3-57208eb91b52/application": {
