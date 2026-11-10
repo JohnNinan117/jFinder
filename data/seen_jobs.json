@@ -917,6 +917,12 @@
     "company": "exa",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/factory/7ae9da73-0ee6-4529-809d-4544ad33febe/application": {
+    "first_seen": "2026-11-10T23:30:46+00:00",
+    "title": "Software Engineer, Mobile",
+    "company": "Factory",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/fal-ai/ae1ab033-5e45-46da-9f20-55ac350eb0e9/application": {
     "first_seen": "2026-09-29T05:52:00+00:00",
     "title": "Machine Learning Engineer, Safety",
@@ -1729,6 +1735,12 @@
   },
   "https://www.ycombinator.com/companies/confido/jobs/HihnMex-software-engineer": {
     "first_seen": "2026-08-18T15:21:39+00:00",
+    "title": "Software Engineer",
+    "company": "Confido (S21)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/confido/jobs/fm8NtZT-software-engineer": {
+    "first_seen": "2026-11-10T23:30:46+00:00",
     "title": "Software Engineer",
     "company": "Confido (S21)",
     "source": "Y Combinator Jobs"
