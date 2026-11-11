@@ -1415,6 +1415,12 @@
     "company": "stream",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/supabase/26f7817d-ca92-4094-a2b5-f22e07a218c4/application": {
+    "first_seen": "2026-11-11T22:47:04+00:00",
+    "title": "Developer Relations Engineer",
+    "company": "supabase",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/supabase/73ddf93b-fe0c-455d-ba27-cdde0d3fb94f/application": {
     "first_seen": "2026-10-14T18:43:42+00:00",
     "title": "FinOps Data Engineer ",
