@@ -107,6 +107,12 @@
     "company": "ATOMS Careers page",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/cssmerge/jobs/8936251002": {
+    "first_seen": "2026-11-11T06:41:04+00:00",
+    "title": "Network Engineer",
+    "company": "ATOMS Careers page",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/dashlane/jobs/8169067": {
     "first_seen": "2026-09-02T19:52:38+00:00",
     "title": "Software Engineer - Security Features",
@@ -1791,6 +1797,12 @@
     "first_seen": "2026-10-22T18:38:44+00:00",
     "title": "Data Engineer, Airships to Cloud",
     "company": "HyLight (S23)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/julius/jobs/mJvspKN-software-engineer-product-new-grad": {
+    "first_seen": "2026-11-11T06:41:04+00:00",
+    "title": "Software Engineer - Product (New Grad)",
+    "company": "Julius (S22)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/keeper-2/jobs/sKbHWDs-software-engineer": {
