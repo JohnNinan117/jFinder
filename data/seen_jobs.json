@@ -701,6 +701,12 @@
     "company": "assorthealth",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef/application": {
+    "first_seen": "2026-11-13T17:51:16+00:00",
+    "title": "Software Engineer Intern, Vehicle Platforms",
+    "company": "aurora-operations-inc",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/aurora-operations-inc/70b6130c-1207-47bc-8bba-06ad3a1d4154/application": {
     "first_seen": "2026-10-17T10:54:46+00:00",
     "title": "Software Engineer II, Perception",
@@ -1468,6 +1474,12 @@
     "title": "AI Research Engineer",
     "company": "Traversal",
     "source": "Sequoia Portfolio Jobs"
+  },
+  "https://jobs.ashbyhq.com/typesafe-ai/b2bc2ec7-31a4-4519-bd13-68f37f7972e2/application": {
+    "first_seen": "2026-11-13T17:51:16+00:00",
+    "title": "Forward Deployed Engineer",
+    "company": "typesafe-ai",
+    "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/viggle/98352e43-0f84-4df8-9f17-88520fe8314a/application": {
     "first_seen": "2026-09-17T01:32:06+00:00",
