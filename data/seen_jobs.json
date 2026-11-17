@@ -305,6 +305,12 @@
     "company": "SpaceXAI",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/xai/jobs/5297316007": {
+    "first_seen": "2026-11-17T04:39:06+00:00",
+    "title": "Software Engineer, Safety",
+    "company": "SpaceXSI",
+    "source": "Greenhouse"
+  },
   "https://jobs.ashbyhq.com/Astro-Mechanica/740cedb6-3c69-49c2-8662-7997799b8c87/application": {
     "first_seen": "2026-11-03T06:58:04+00:00",
     "title": "Software Engineering Intern",
@@ -1616,6 +1622,12 @@
   "https://www.comeet.com/jobs/Claroty/F2.004/backend-software-engineer/55.278": {
     "first_seen": "2026-09-07T23:34:53+00:00",
     "title": "Backend Software Engineer",
+    "company": "Claroty",
+    "source": "Bessemer Portfolio Jobs"
+  },
+  "https://www.comeet.com/jobs/Claroty/F2.004/product-support-engineer---saas/64.579": {
+    "first_seen": "2026-11-17T04:39:06+00:00",
+    "title": "Product Support Engineer - SaaS",
     "company": "Claroty",
     "source": "Bessemer Portfolio Jobs"
   },
