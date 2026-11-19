@@ -1133,6 +1133,12 @@
     "company": "notion",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/notion/0fb1f7e2-ffe4-433c-a27d-62fa7f1d880f/application": {
+    "first_seen": "2026-11-19T22:16:38+00:00",
+    "title": "Software Engineer, Collections Infra",
+    "company": "notion",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947/application": {
     "first_seen": "2026-11-07T02:56:46+00:00",
     "title": "Software Engineering Intern, iOS (Summer 2027)",
@@ -1340,6 +1346,12 @@
   "https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74/application": {
     "first_seen": "2026-09-24T10:10:02+00:00",
     "title": "Software Engineer Internship, Frontend",
+    "company": "ramp",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/ramp/da40ed6e-1c32-4284-89f5-2ad0813b8d49/application": {
+    "first_seen": "2026-11-19T22:16:38+00:00",
+    "title": "Software Engineer, Production Engineering, FinOps",
     "company": "ramp",
     "source": "Ashby"
   },
