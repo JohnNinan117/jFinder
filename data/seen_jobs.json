@@ -311,6 +311,12 @@
     "company": "SpaceXSI",
     "source": "Greenhouse"
   },
+  "https://jobs.ashbyhq.com/Abridge/c3c523fd-28d4-4e3d-9d02-04eeddb3f4f4/application": {
+    "first_seen": "2026-11-20T13:07:40+00:00",
+    "title": "Business Systems Engineer - Finance",
+    "company": "Abridge",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/Astro-Mechanica/740cedb6-3c69-49c2-8662-7997799b8c87/application": {
     "first_seen": "2026-11-03T06:58:04+00:00",
     "title": "Software Engineering Intern",
@@ -2025,6 +2031,12 @@
     "first_seen": "2026-08-18T15:21:39+00:00",
     "title": "Software Engineering Intern",
     "company": "TraceRoot.AI (S25)",
+    "source": "Y Combinator Jobs"
+  },
+  "https://www.ycombinator.com/companies/traceroot/jobs/RCbNRRq-software-engineering-intern": {
+    "first_seen": "2026-11-20T13:07:40+00:00",
+    "title": "Software Engineering Intern",
+    "company": "traceroot (S25)",
     "source": "Y Combinator Jobs"
   },
   "https://www.ycombinator.com/companies/volaren-inc/jobs/KfqM968-software-engineer": {
