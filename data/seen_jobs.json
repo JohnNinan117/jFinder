@@ -743,6 +743,12 @@
     "company": "base-power",
     "source": "Ashby"
   },
+  "https://jobs.ashbyhq.com/base-power/2fd9d020-3f75-4ea1-bdd7-1fb5d7723ebc/application": {
+    "first_seen": "2026-11-21T02:32:33+00:00",
+    "title": "Embedded Software Engineer, Platform",
+    "company": "base-power",
+    "source": "Ashby"
+  },
   "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application": {
     "first_seen": "2026-09-14T19:27:42+00:00",
     "title": "Software Engineering Intern",
@@ -1576,6 +1582,12 @@
     "title": "Sr. Software Engineer",
     "company": "Verygoodsecurity",
     "source": "Lever"
+  },
+  "https://jobs.overjoy.ai/41917": {
+    "first_seen": "2026-11-21T02:32:33+00:00",
+    "title": "Forward Deployed Growth Engineer",
+    "company": "Overjoy",
+    "source": "Bessemer Portfolio Jobs"
   },
   "https://point.com/hiring?gh_jid=8829278002": {
     "first_seen": "2026-09-23T06:05:36+00:00",
