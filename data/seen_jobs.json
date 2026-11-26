@@ -281,6 +281,12 @@
     "company": "Reddit",
     "source": "Greenhouse"
   },
+  "https://job-boards.greenhouse.io/reddit/jobs/8415553": {
+    "first_seen": "2026-11-26T02:54:58+00:00",
+    "title": "Software Engineer, Ads",
+    "company": "Reddit",
+    "source": "Greenhouse"
+  },
   "https://job-boards.greenhouse.io/starburst/jobs/5455394008": {
     "first_seen": "2026-10-22T01:37:29+00:00",
     "title": "Customer Support Engineer",
@@ -813,6 +819,18 @@
     "first_seen": "2026-10-01T20:24:21+00:00",
     "title": "Langfuse - Product Engineer, Integrations",
     "company": "clickhouse",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/coderabbit/50e51501-4421-496f-95ea-c793aed3bd51/application": {
+    "first_seen": "2026-11-26T02:54:58+00:00",
+    "title": "Software Engineer - New Grad",
+    "company": "CodeRabbit",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/coderabbit/c30ab34a-98f3-4c41-b4ba-179bdbab32c9/application": {
+    "first_seen": "2026-11-26T02:54:58+00:00",
+    "title": "Software Engineer - Intern ",
+    "company": "CodeRabbit",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/cursor/164e27cd-289e-4bcd-8aaf-5280e75c5ed6/application": {
@@ -1443,6 +1461,12 @@
     "first_seen": "2026-09-09T06:05:05+00:00",
     "title": "Internship: Embedded Software Engineer",
     "company": "revel",
+    "source": "Ashby"
+  },
+  "https://jobs.ashbyhq.com/runpod/d7c53f7a-ce66-4ecb-91f6-75b1565d4d62/application": {
+    "first_seen": "2026-11-26T02:54:58+00:00",
+    "title": "Software Engineer (Full-Stack) - Multiple Levels ",
+    "company": "RunPod",
     "source": "Ashby"
   },
   "https://jobs.ashbyhq.com/sardine/5f63898a-6d71-4d60-815d-5ae7b9d2437d/application": {
